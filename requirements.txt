@@ -2,3 +2,4 @@ streamlit
 requests
 webdriver-manager
 beautifulsoup4
+selenium
