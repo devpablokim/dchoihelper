@@ -3,3 +3,6 @@ selenium
 requests
 webdriver-manager
 beautifulsoup4
+create_driver
+chromium
+chromium-driver
