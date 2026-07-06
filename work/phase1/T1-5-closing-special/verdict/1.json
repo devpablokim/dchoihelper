@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 23289,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "All four closing-special templates present a clear visual hierarchy (display-weight title/stat > strong body > muted source/caption), consistent 96px safe-zone margins, and non-overlapping slot geometry that scales coherently from the 960-space manifest to the 1280×720 HTML. Slot composition is practical for real closing content with sane capacity floors; only minor soft weaknesses (sparse CTA slot, thin accent rules) keep it from a perfect score.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "All four closing-special templates present a clear visual hierarchy (display-weight title/stat > strong body > muted source/caption), consistent 96px safe-zone margins, and non-overlapping slot geometry that scales coherently from the 960-space manifest to the 1280×720 HTML. Slot composition is practical for real closing content with sane capacity floors; only minor soft weaknesses (sparse CTA slot, thin accent rules) keep it from a perfect score.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 4,
+      "honesty": 4
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 4,
+    "honesty": 4
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 1
+}

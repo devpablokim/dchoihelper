@@ -1,0 +1,30 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 25872,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "두 PNG 모두 한글 글자(제목·축라벨·범례·데이터라벨)가 두부현상·깨짐 없이 선명하게 렌더링되어 폰트 임베딩 관점의 하드페일은 없다. 다만 stacked-bar는 막대 안 데이터라벨이 좌측에서 잘리고('국내 매출 180억'→'내 매출 180억') y축 제목 '매출(억원)'이 범례와 겹쳐 발표 슬라이드 삽입 전 레이아웃 보정이 필요한 가시적 약점이 있어 만점은 아니다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "두 PNG 모두 한글 글자(제목·축라벨·범례·데이터라벨)가 두부현상·깨짐 없이 선명하게 렌더링되어 폰트 임베딩 관점의 하드페일은 없다. 다만 stacked-bar는 막대 안 데이터라벨이 좌측에서 잘리고('국내 매출 180억'→'내 매출 180억') y축 제목 '매출(억원)'이 범례와 겹쳐 발표 슬라이드 삽입 전 레이아웃 보정이 필요한 가시적 약점이 있어 만점은 아니다.",
+    "rubricScores": {
+      "completeness": 3,
+      "fidelity": 5,
+      "honesty": 4
+    },
+    "score": 3,
+    "score_note": 3
+  },
+  "rubricScores": {
+    "completeness": 3,
+    "fidelity": 5,
+    "honesty": 4
+  },
+  "score": 3,
+  "status": "success",
+  "vote": 2
+}

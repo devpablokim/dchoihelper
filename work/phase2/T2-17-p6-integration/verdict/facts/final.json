@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 13307,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 7668,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 11731,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-03T06:44:52+00:00",
+  "gateId": "p6-integration-facts",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "pass",
+    "failVotes": 0,
+    "failedVotes": 0,
+    "passVotes": 3,
+    "reason": "3:0 majority pass",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/quality-general.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/quality-general.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "cad24a25-a257-4dfd-b607-0235aa70d721",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 13307,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "pass",
+      "rationale": "모든 sourceRef가 정확히 하나의 원본 클레임에 대응하고, 다섯 슬라이드의 모든 copy 텍스트가 원본과 완전히 일치해 수치(14.2%, 10.8%, 31 staff-hours, 18,400, 138달러, 86,000달러, 91%)와 출처 핵심 표현이 그대로 보존된다. 새로 도입된 정량값이나 왜곡·환각이 전혀 없어 하드게이트 통과 기준을 명백한 증거로 충족한다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "모든 sourceRef가 정확히 하나의 원본 클레임에 대응하고, 다섯 슬라이드의 모든 copy 텍스트가 원본과 완전히 일치해 수치(14.2%, 10.8%, 31 staff-hours, 18,400, 138달러, 86,000달러, 91%)와 출처 핵심 표현이 그대로 보존된다. 새로 도입된 정량값이나 왜곡·환각이 전혀 없어 하드게이트 통과 기준을 명백한 증거로 충족한다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 7668,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "pass",
+      "rationale": "Every sourceRef resolves to exactly one original claim, and each copy string is character-for-character identical to its original, preserving all numbers (14.2%, 10.8%, 31 staff-hours, 18,400, 138 dollars, 86,000 dollars, 91%) and source-critical wording. No copied claim introduces any new quantitative value, so the fact-check gate is satisfied with clear visible evidence and no hard-fail concerns.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "Every sourceRef resolves to exactly one original claim, and each copy string is character-for-character identical to its original, preserving all numbers (14.2%, 10.8%, 31 staff-hours, 18,400, 138 dollars, 86,000 dollars, 91%) and source-critical wording. No copied claim introduces any new quantitative value, so the fact-check gate is satisfied with clear visible evidence and no hard-fail concerns.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 11731,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "pass",
+      "rationale": "모든 슬라이드에서 copy 텍스트가 original claim과 문자 단위로 완전히 일치하며, 각 sourceRef가 정확히 하나의 원본 주장으로 해소된다. 수치(14.2%, 10.8%, 31시간, 18,400건, 138달러, 86,000달러, 91%)와 출처 핵심 문구가 모두 보존되었고 새로운 정량값이 추가된 흔적이 없다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "모든 슬라이드에서 copy 텍스트가 original claim과 문자 단위로 완전히 일치하며, 각 sourceRef가 정확히 하나의 원본 주장으로 해소된다. 수치(14.2%, 10.8%, 31시간, 18,400건, 138달러, 86,000달러, 91%)와 출처 핵심 문구가 모두 보존되었고 새로운 정량값이 추가된 흔적이 없다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "demo-topic-1",
+    "path": "/home/seunghyeong/deck-factory/incubator/packages/deck-copy/tests/integration/subject-facts.txt"
+  }
+}

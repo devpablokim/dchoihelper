@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 21219,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "fail",
+  "rationale": "Slide 3 is visibly broken: a black 'Contact audit' chip and a blue bar bleed off the left edge at x=0, an empty mint-green placeholder box holds no content, and the 'Contact audit' label is duplicated as both a left-side chip and right-column footer. This is a clear alignment/whitespace/collision hard-fail well below commercial-tool polish, even though slides 1 and 2 are clean.",
+  "raw": {
+    "decision": "fail",
+    "rationale": "Slide 3 is visibly broken: a black 'Contact audit' chip and a blue bar bleed off the left edge at x=0, an empty mint-green placeholder box holds no content, and the 'Contact audit' label is duplicated as both a left-side chip and right-column footer. This is a clear alignment/whitespace/collision hard-fail well below commercial-tool polish, even though slides 1 and 2 are clean.",
+    "rubricScores": {
+      "completeness": 1,
+      "fidelity": 2,
+      "honesty": 2
+    },
+    "score": 1
+  },
+  "rubricScores": {
+    "completeness": 1,
+    "fidelity": 2,
+    "honesty": 2
+  },
+  "score": 1,
+  "status": "success",
+  "vote": 3
+}

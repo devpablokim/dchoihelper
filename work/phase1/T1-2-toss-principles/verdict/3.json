@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 23823,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "pass",
+  "rationale": "토큰 체계(역할·raw 팔레트 이원화, 8단 간격 스케일, 5단 타입 스케일, 모션 토큰)가 CSS 변수로 일관되게 매핑되고 스타일 타일이 팔레트·타입·컴포넌트 3영역을 1280×720 안에 명료히 제시해 프레젠테이션 파운데이션으로 완성도가 높으며 가시적 하드페일이 없다. 대비쌍이 전부 최소치 4.5로만 명시되고 650/750/850 등 비표준 폰트 웨이트가 Pretendard 렌더 시 근사될 수 있는 점은 소프트 피드백 수준의 약점이다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "토큰 체계(역할·raw 팔레트 이원화, 8단 간격 스케일, 5단 타입 스케일, 모션 토큰)가 CSS 변수로 일관되게 매핑되고 스타일 타일이 팔레트·타입·컴포넌트 3영역을 1280×720 안에 명료히 제시해 프레젠테이션 파운데이션으로 완성도가 높으며 가시적 하드페일이 없다. 대비쌍이 전부 최소치 4.5로만 명시되고 650/750/850 등 비표준 폰트 웨이트가 Pretendard 렌더 시 근사될 수 있는 점은 소프트 피드백 수준의 약점이다.",
+    "rubricScores": {
+      "completeness": 4,
+      "fidelity": 4,
+      "honesty": 5
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 4,
+    "fidelity": 4,
+    "honesty": 5
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 3
+}

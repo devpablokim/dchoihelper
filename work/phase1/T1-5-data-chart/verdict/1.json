@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 17343,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "All four templates share a consistent 80px margin frame (1120px content width) with clear font-token hierarchy (display-sm title > body-md content > caption source), and grid slots align evenly (KPI columns at 80/472/864 with balanced 56px gutters, split-analysis chart/analysis at 560/520 with a 40px gap). No visible overflow, collision, or hard-fail evidence in the HTML source or manifest, and slot composition is practical for presentation use.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "All four templates share a consistent 80px margin frame (1120px content width) with clear font-token hierarchy (display-sm title > body-md content > caption source), and grid slots align evenly (KPI columns at 80/472/864 with balanced 56px gutters, split-analysis chart/analysis at 560/520 with a 40px gap). No visible overflow, collision, or hard-fail evidence in the HTML source or manifest, and slot composition is practical for presentation use.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 1
+}

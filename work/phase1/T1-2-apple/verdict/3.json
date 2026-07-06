@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 17827,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "pass",
+  "rationale": "토큰 체계가 팔레트 역할/원본 분리, 위계적 타입 스케일, 8pt 기반 간격, AA 대비쌍까지 일관되게 정의돼 Apple 디자인 시스템다움과 파운데이션 완성도를 시각적 증거로 충족한다. 히어로·팔레트·타입스케일·컴포넌트 타일이 하드페일 없이 조화롭게 렌더되나, body-copy에 display 폰트를 lead 크기로 쓴 점과 대비비가 실측 아닌 선언값(4.5)이라는 점이 소프트 약점으로 남는다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "토큰 체계가 팔레트 역할/원본 분리, 위계적 타입 스케일, 8pt 기반 간격, AA 대비쌍까지 일관되게 정의돼 Apple 디자인 시스템다움과 파운데이션 완성도를 시각적 증거로 충족한다. 히어로·팔레트·타입스케일·컴포넌트 타일이 하드페일 없이 조화롭게 렌더되나, body-copy에 display 폰트를 lead 크기로 쓴 점과 대비비가 실측 아닌 선언값(4.5)이라는 점이 소프트 약점으로 남는다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 4,
+      "honesty": 4
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 4,
+    "honesty": 4
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 3
+}

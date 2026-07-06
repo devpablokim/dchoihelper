@@ -1,0 +1,7 @@
+{
+  "clonedAt": "2026-07-02T18:56:23Z",
+  "pins": [
+    {"repo": "NomaDamas/slides-grab", "commit": "1383c9526ad7d2fd00ae389c6e1d890f99ffe84e"},
+    {"repo": "heygen-com/hyperframes", "commit": "a7c3cc7d689b13c5bb96559f9bad713205edb194"}
+  ]
+}

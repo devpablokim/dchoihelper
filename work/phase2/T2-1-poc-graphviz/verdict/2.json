@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 14963,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "세 PNG 모두 제목·노드 라벨·축라벨·연결선 라벨·범례의 한글(2026년 1분기 매출 조직도, 영업이익률, 데이터라벨 등)이 깨짐이나 두부(□) 없이 선명하게 렌더되어 발표 슬라이드에 넣을 수 있는 수준이다. 색상 구분·레이아웃·화살표 방향도 정돈되어 있고 하드페일 증거가 보이지 않는다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "세 PNG 모두 제목·노드 라벨·축라벨·연결선 라벨·범례의 한글(2026년 1분기 매출 조직도, 영업이익률, 데이터라벨 등)이 깨짐이나 두부(□) 없이 선명하게 렌더되어 발표 슬라이드에 넣을 수 있는 수준이다. 색상 구분·레이아웃·화살표 방향도 정돈되어 있고 하드페일 증거가 보이지 않는다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 2
+}

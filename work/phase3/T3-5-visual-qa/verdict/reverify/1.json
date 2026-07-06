@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 20211,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "슬라이드 3의 지난 결함(빈 박스·요소 넘침)이 해소되어 태블릿 일러스트·제목·불릿·출처가 정상 배치되고 넘침이 없으며, 슬라이드 1·2도 위계·정렬·여백·가독이 안정적이다. 명백한 하드페일 근거는 보이지 않으나 슬라이드 3 불릿의 들여쓰기와 여백 활용에 소폭 약점이 남아 만점은 아니다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "슬라이드 3의 지난 결함(빈 박스·요소 넘침)이 해소되어 태블릿 일러스트·제목·불릿·출처가 정상 배치되고 넘침이 없으며, 슬라이드 1·2도 위계·정렬·여백·가독이 안정적이다. 명백한 하드페일 근거는 보이지 않으나 슬라이드 3 불릿의 들여쓰기와 여백 활용에 소폭 약점이 남아 만점은 아니다.",
+    "rubricScores": {
+      "completeness": 4,
+      "fidelity": 4,
+      "honesty": 5
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 4,
+    "fidelity": 4,
+    "honesty": 5
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 1
+}

@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 21334,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "pass",
+  "rationale": "역할 기반 팔레트·8px 배수 간격·6단 타입스케일·모션·대비쌍·폰트 라이선스가 tokens.json에 빠짐없이 정의되고 tile.html의 CSS 변수와 정확히 일치해 원본 디자인 시스템다운 일관성과 발표 파운데이션 완성도를 갖췄다. 대비쌍 비율이 실측이 아닌 4.5 하한 선언으로 보이고 간격·모션 토큰이 타일에 시각적으로 드러나지 않는 소프트 약점은 있으나 하드페일 근거는 없다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "역할 기반 팔레트·8px 배수 간격·6단 타입스케일·모션·대비쌍·폰트 라이선스가 tokens.json에 빠짐없이 정의되고 tile.html의 CSS 변수와 정확히 일치해 원본 디자인 시스템다운 일관성과 발표 파운데이션 완성도를 갖췄다. 대비쌍 비율이 실측이 아닌 4.5 하한 선언으로 보이고 간격·모션 토큰이 타일에 시각적으로 드러나지 않는 소프트 약점은 있으나 하드페일 근거는 없다.",
+    "rubricScores": {
+      "completeness": 4,
+      "fidelity": 5,
+      "honesty": 4
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 4,
+    "fidelity": 5,
+    "honesty": 4
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 3
+}

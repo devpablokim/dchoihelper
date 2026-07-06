@@ -1,0 +1,11 @@
+{
+  "taskId": "T2-12-dataviz",
+  "attempt": 0,
+  "pid": 28044,
+  "pgid": 28044,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase2/T2-12-dataviz/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase2/T2-12-dataviz/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-03T04:17:44Z"
+}

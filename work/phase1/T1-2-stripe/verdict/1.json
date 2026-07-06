@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 16320,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "토큰 JSON과 tile.html이 일관된 팔레트(딥네이비 잉크·단일 인디고 액센트·크림/메시 강조)와 300 weight 음수 트래킹 디스플레이 위계, 4/8/12/16/24/32 간격 체계를 CSS 변수로 충실히 반영해 Stripe 디자인 시스템다운 조화와 완성도를 보인다. 히어로·대시보드 목업·팔레트/타입스케일/컴포넌트 스펙 그리드가 프레젠테이션 파운데이션으로서 근거 있게 구성되어 하드페일 증거가 없다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "토큰 JSON과 tile.html이 일관된 팔레트(딥네이비 잉크·단일 인디고 액센트·크림/메시 강조)와 300 weight 음수 트래킹 디스플레이 위계, 4/8/12/16/24/32 간격 체계를 CSS 변수로 충실히 반영해 Stripe 디자인 시스템다운 조화와 완성도를 보인다. 히어로·대시보드 목업·팔레트/타입스케일/컴포넌트 스펙 그리드가 프레젠테이션 파운데이션으로서 근거 있게 구성되어 하드페일 증거가 없다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 1
+}

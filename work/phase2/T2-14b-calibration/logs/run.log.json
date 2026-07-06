@@ -1,0 +1,11 @@
+{
+  "taskId": "T2-14b-calibration",
+  "attempt": 1,
+  "pid": 1597,
+  "pgid": 1597,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase2/T2-14b-calibration/out/attempt-1/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase2/T2-14b-calibration/brief.retry-1.md",
+  "schema": null,
+  "startedAt": "2026-07-03T06:23:12Z"
+}

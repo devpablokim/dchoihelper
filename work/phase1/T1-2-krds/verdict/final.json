@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 16072,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 32563,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 20220,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-03T00:12:16+00:00",
+  "gateId": "p1-style-tile",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "pass",
+    "failVotes": 0,
+    "failedVotes": 0,
+    "passVotes": 3,
+    "reason": "3:0 majority pass",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/quality-general.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/quality-general.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "348343c9-96c2-49de-adff-cd7158c094a3",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 16072,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "pass",
+      "rationale": "토큰 체계가 8px 배수 간격(8/16/24/32/48/64)과 4단 타이포 스케일(64/40/32/24), 정부 블루 기반 팔레트+의미색(danger/success)으로 일관되며, 대비쌍·KOGL 출처 명시까지 갖춰 KRDS다운 완성도를 보인다. HTML 타일이 팔레트·타이포·컴포넌트(버튼/카드/필)·푸터를 인라인 CSS 1280×720으로 결함 없이 렌더하여 프레젠테이션 파운데이션으로 충분하다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "토큰 체계가 8px 배수 간격(8/16/24/32/48/64)과 4단 타이포 스케일(64/40/32/24), 정부 블루 기반 팔레트+의미색(danger/success)으로 일관되며, 대비쌍·KOGL 출처 명시까지 갖춰 KRDS다운 완성도를 보인다. HTML 타일이 팔레트·타이포·컴포넌트(버튼/카드/필)·푸터를 인라인 CSS 1280×720으로 결함 없이 렌더하여 프레젠테이션 파운데이션으로 충분하다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 32563,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "pass",
+      "rationale": "팔레트(정부블루+블루틴트), 타이포 4단계, 8배수 간격 체계가 일관되고 KRDS 출처·KOGL 라이선스까지 명시해 원본 디자인 시스템다움과 파운데이션 완성도가 명확히 드러난다. 다만 content 그리드 트랙 합(448+352+384)에 열간격 64px를 더하면 가용폭 1184px를 64px 초과해 최우측 Components 열이 overflow:hidden으로 잘릴 소지가 있어 소프트 결함으로 감점한다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "팔레트(정부블루+블루틴트), 타이포 4단계, 8배수 간격 체계가 일관되고 KRDS 출처·KOGL 라이선스까지 명시해 원본 디자인 시스템다움과 파운데이션 완성도가 명확히 드러난다. 다만 content 그리드 트랙 합(448+352+384)에 열간격 64px를 더하면 가용폭 1184px를 64px 초과해 최우측 Components 열이 overflow:hidden으로 잘릴 소지가 있어 소프트 결함으로 감점한다.",
+        "rubricScores": {
+          "completeness": 4,
+          "fidelity": 5,
+          "honesty": 4
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 4,
+        "fidelity": 5,
+        "honesty": 4
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 20220,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "pass",
+      "rationale": "토큰 JSON과 HTML의 CSS 변수가 정확히 일치하며 팔레트(role/raw 이중 체계·정부 블루 계열)·타이포 위계(64/40/32/24)·8단위 간격 체계가 일관되게 구현되어 KRDS다운 공공 디자인 시스템의 정통성이 시각적으로 확인된다. 팔레트·타이포·간격·컴포넌트·상태 필·라이선스 귀속·대비쌍까지 프레젠테이션 파운데이션으로서 필요한 요소를 모두 갖췄고 하드페일 근거가 보이지 않는다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "토큰 JSON과 HTML의 CSS 변수가 정확히 일치하며 팔레트(role/raw 이중 체계·정부 블루 계열)·타이포 위계(64/40/32/24)·8단위 간격 체계가 일관되게 구현되어 KRDS다운 공공 디자인 시스템의 정통성이 시각적으로 확인된다. 팔레트·타이포·간격·컴포넌트·상태 필·라이선스 귀속·대비쌍까지 프레젠테이션 파운데이션으로서 필요한 요소를 모두 갖췄고 하드페일 근거가 보이지 않는다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "krds",
+    "path": "/tmp/claude-1000/-home-seunghyeong/c7d6b2fc-8fb7-45b8-884f-c0c72e1ce39c/scratchpad/tilejudge/subject-krds.txt"
+  }
+}

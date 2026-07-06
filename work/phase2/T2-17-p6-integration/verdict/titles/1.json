@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 21991,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "All five entries are complete assertion sentences with clear subject, direction, and implication (capacity leak → reminders reduced misses → recovered appointments fund rollout → readiness conditions → approve rollout), reading as action titles rather than section labels and preserving the outline decision arc. The deterministic '이다' suffix is the expected machine-generated title-lint target, so it does not detract from conclusiveness or introduce unsupported claims.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "All five entries are complete assertion sentences with clear subject, direction, and implication (capacity leak → reminders reduced misses → recovered appointments fund rollout → readiness conditions → approve rollout), reading as action titles rather than section labels and preserving the outline decision arc. The deterministic '이다' suffix is the expected machine-generated title-lint target, so it does not detract from conclusiveness or introduce unsupported claims.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 1
+}

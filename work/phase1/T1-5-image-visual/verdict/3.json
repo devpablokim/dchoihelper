@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 22379,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "pass",
+  "rationale": "네 템플릿 모두 1280×720 안전영역 내에 절대배치되고 제목(display)>본문(body)>출처(caption)의 타입스케일 위계가 뚜렷하며, image-grid-3은 64/464/864·폭352·간격48의 균일 3열 그리드와 96/64px 일관 여백으로 정렬·균형이 확보돼 발표용으로 실용적이다. 실측 콘텐츠가 아닌 SVG 플레이스홀더와 매니페스트 용량치만으로 판단해 실제 텍스트 오버플로 스트레스 검증 증거가 부족한 점이 소프트 약점이라 만점은 아니다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "네 템플릿 모두 1280×720 안전영역 내에 절대배치되고 제목(display)>본문(body)>출처(caption)의 타입스케일 위계가 뚜렷하며, image-grid-3은 64/464/864·폭352·간격48의 균일 3열 그리드와 96/64px 일관 여백으로 정렬·균형이 확보돼 발표용으로 실용적이다. 실측 콘텐츠가 아닌 SVG 플레이스홀더와 매니페스트 용량치만으로 판단해 실제 텍스트 오버플로 스트레스 검증 증거가 부족한 점이 소프트 약점이라 만점은 아니다.",
+    "rubricScores": {
+      "completeness": 4,
+      "fidelity": 4,
+      "honesty": 5
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 4,
+    "fidelity": 4,
+    "honesty": 5
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 3
+}

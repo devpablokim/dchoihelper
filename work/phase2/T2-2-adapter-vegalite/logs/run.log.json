@@ -1,0 +1,11 @@
+{
+  "taskId": "T2-2-adapter-vegalite",
+  "attempt": 0,
+  "pid": 3185,
+  "pgid": 3185,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase2/T2-2-adapter-vegalite/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase2/T2-2-adapter-vegalite/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-03T03:35:55Z"
+}

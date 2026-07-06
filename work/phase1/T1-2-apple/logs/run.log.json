@@ -1,0 +1,11 @@
+{
+  "taskId": "T1-2-apple",
+  "attempt": 0,
+  "pid": 9857,
+  "pgid": 9857,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase1/T1-2-apple/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase1/T1-2-apple/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-02T23:41:32Z"
+}

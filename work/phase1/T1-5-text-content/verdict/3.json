@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 19377,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "pass",
+  "rationale": "네 템플릿 모두 제목(display)>부제(bodyLg)>본문(bodyMd)의 폰트·색상 위계가 명확하고, 좌측 마진(80/120px)·슬롯 좌표가 그리드에 일관되게 정렬돼 있으며 two-column/highlight-box의 열 분할도 대칭적이고 실용적이다. 하드페일 증거는 없고 슬롯 구성과 여백 균형이 발표용으로 충분하나, 매니페스트 bbox와 HTML CSS 좌표가 다른 스케일(≈960×540 vs 1280×720)로 표기돼 검증 시 혼동 여지가 있어 소프트 약점으로 남긴다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "네 템플릿 모두 제목(display)>부제(bodyLg)>본문(bodyMd)의 폰트·색상 위계가 명확하고, 좌측 마진(80/120px)·슬롯 좌표가 그리드에 일관되게 정렬돼 있으며 two-column/highlight-box의 열 분할도 대칭적이고 실용적이다. 하드페일 증거는 없고 슬롯 구성과 여백 균형이 발표용으로 충분하나, 매니페스트 bbox와 HTML CSS 좌표가 다른 스케일(≈960×540 vs 1280×720)로 표기돼 검증 시 혼동 여지가 있어 소프트 약점으로 남긴다.",
+    "rubricScores": {
+      "completeness": 4,
+      "fidelity": 4,
+      "honesty": 5
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 4,
+    "fidelity": 4,
+    "honesty": 5
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 3
+}

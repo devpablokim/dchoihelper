@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 17209,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 18934,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 21219,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-03T08:25:10+00:00",
+  "gateId": "p7-visual-qa",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "fail",
+    "failVotes": 3,
+    "failedVotes": 0,
+    "passVotes": 0,
+    "reason": "3:0 majority fail",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/quality-general.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/quality-general.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "12cbe20a-288d-4c24-ba15-3ad2e93cc8a6",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 17209,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "fail",
+      "rationale": "Slide 3 has a visible hard-fail: a placeholder empty mint box, a blue bar and a duplicated black 'Contact audit' pill that collide and bleed off the left slide edge, violating margin, alignment, and completion criteria. Slides 1 and 2 are clean, but a single deterministic hard-fail on slide 3 fails the gate.",
+      "raw": {
+        "decision": "fail",
+        "rationale": "Slide 3 has a visible hard-fail: a placeholder empty mint box, a blue bar and a duplicated black 'Contact audit' pill that collide and bleed off the left slide edge, violating margin, alignment, and completion criteria. Slides 1 and 2 are clean, but a single deterministic hard-fail on slide 3 fails the gate.",
+        "rubricScores": {
+          "completeness": 1,
+          "fidelity": 2,
+          "honesty": 3
+        },
+        "score": 1
+      },
+      "rubricScores": {
+        "completeness": 1,
+        "fidelity": 2,
+        "honesty": 3
+      },
+      "score": 1,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 18934,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "fail",
+      "rationale": "Slide 3 is a hard fail: an empty mint placeholder box occupies the left panel where a chart/image should render, elements bleed off the left slide edge, and a stray dark 'Contact audit' badge overlaps a blue bar — broken layout unfit for a commercial-grade deck. Slides 1–2 show clean hierarchy and alignment, but one collapsed slide fails the hard gate.",
+      "raw": {
+        "decision": "fail",
+        "rationale": "Slide 3 is a hard fail: an empty mint placeholder box occupies the left panel where a chart/image should render, elements bleed off the left slide edge, and a stray dark 'Contact audit' badge overlaps a blue bar — broken layout unfit for a commercial-grade deck. Slides 1–2 show clean hierarchy and alignment, but one collapsed slide fails the hard gate.",
+        "rubricScores": {
+          "completeness": 2,
+          "fidelity": 1,
+          "honesty": 3
+        },
+        "score": 1
+      },
+      "rubricScores": {
+        "completeness": 2,
+        "fidelity": 1,
+        "honesty": 3
+      },
+      "score": 1,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 21219,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "fail",
+      "rationale": "Slide 3 is visibly broken: a black 'Contact audit' chip and a blue bar bleed off the left edge at x=0, an empty mint-green placeholder box holds no content, and the 'Contact audit' label is duplicated as both a left-side chip and right-column footer. This is a clear alignment/whitespace/collision hard-fail well below commercial-tool polish, even though slides 1 and 2 are clean.",
+      "raw": {
+        "decision": "fail",
+        "rationale": "Slide 3 is visibly broken: a black 'Contact audit' chip and a blue bar bleed off the left edge at x=0, an empty mint-green placeholder box holds no content, and the 'Contact audit' label is duplicated as both a left-side chip and right-column footer. This is a clear alignment/whitespace/collision hard-fail well below commercial-tool polish, even though slides 1 and 2 are clean.",
+        "rubricScores": {
+          "completeness": 1,
+          "fidelity": 2,
+          "honesty": 2
+        },
+        "score": 1
+      },
+      "rubricScores": {
+        "completeness": 1,
+        "fidelity": 2,
+        "honesty": 2
+      },
+      "score": 1,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "golden-e2e",
+    "path": "/tmp/claude-1000/-home-seunghyeong/c7d6b2fc-8fb7-45b8-884f-c0c72e1ce39c/scratchpad/subject-visual-qa.txt"
+  }
+}

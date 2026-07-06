@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 18210,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "pass",
+  "rationale": "네 템플릿 모두 제목>부제>본문의 시각 위계가 폰트 크기·색(ink/body/mute)·mono 캡션으로 명확히 구분되고, 일관된 좌측 여백과 절대 좌표 그리드로 정렬·여백 균형이 실용적이다. 매니페스트 bbox와 실제 CSS 좌표가 미세하게 어긋나는 소프트 약점이 있으나 하드페일 근거는 없어 게이트 통과 기준을 충족한다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "네 템플릿 모두 제목>부제>본문의 시각 위계가 폰트 크기·색(ink/body/mute)·mono 캡션으로 명확히 구분되고, 일관된 좌측 여백과 절대 좌표 그리드로 정렬·여백 균형이 실용적이다. 매니페스트 bbox와 실제 CSS 좌표가 미세하게 어긋나는 소프트 약점이 있으나 하드페일 근거는 없어 게이트 통과 기준을 충족한다.",
+    "rubricScores": {
+      "completeness": 4,
+      "fidelity": 4,
+      "honesty": 5
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 4,
+    "fidelity": 4,
+    "honesty": 5
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 3
+}

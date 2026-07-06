@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 16520,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 15867,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 12349,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-03T03:33:31+00:00",
+  "gateId": "p3-korean-render",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "pass",
+    "failVotes": 0,
+    "failedVotes": 0,
+    "passVotes": 3,
+    "reason": "3:0 majority pass",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/quality-general.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/quality-general.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "c99dfd75-db2d-4994-81cd-9a90a6802fa0",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 16520,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "pass",
+      "rationale": "두 PNG 모두 제목·축라벨·범례·데이터라벨의 한글(분기별 매출과 영업이익률, 채널별 분기 매출, 온라인/오프라인/파트너, 억원 등)이 깨짐이나 두부(tofu) 없이 선명하게 렌더된다. 축·범례·색상 대비가 명확하고 데이터라벨이 정확해 발표 슬라이드에 바로 넣을 수 있는 수준이다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "두 PNG 모두 제목·축라벨·범례·데이터라벨의 한글(분기별 매출과 영업이익률, 채널별 분기 매출, 온라인/오프라인/파트너, 억원 등)이 깨짐이나 두부(tofu) 없이 선명하게 렌더된다. 축·범례·색상 대비가 명확하고 데이터라벨이 정확해 발표 슬라이드에 바로 넣을 수 있는 수준이다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 15867,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "pass",
+      "rationale": "두 PNG 모두 제목·축라벨·범례·데이터라벨의 한글(분기별 매출과 영업이익률, 채널별 분기 매출, 온라인/오프라인/파트너, 세로 회전된 축 제목 포함)이 두부(□) 없이 선명하게 렌더되어 하드페일 증거가 없다. 축·눈금·색 구분이 명확하고 데이터라벨이 값과 함께 정확히 표기되어 발표 슬라이드에 그대로 삽입 가능한 수준이다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "두 PNG 모두 제목·축라벨·범례·데이터라벨의 한글(분기별 매출과 영업이익률, 채널별 분기 매출, 온라인/오프라인/파트너, 세로 회전된 축 제목 포함)이 두부(□) 없이 선명하게 렌더되어 하드페일 증거가 없다. 축·눈금·색 구분이 명확하고 데이터라벨이 값과 함께 정확히 표기되어 발표 슬라이드에 그대로 삽입 가능한 수준이다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 12349,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "pass",
+      "rationale": "두 PNG 모두 제목·축라벨·범례·데이터라벨의 한글이 깨짐(두부/□)이나 자소 분리 없이 선명하게 렌더되며, 세로 회전된 축라벨(매출(억원), 영업이익률(%))도 정상 표기된다. 색 대비와 레이아웃이 발표 슬라이드에 바로 넣을 수 있는 수준으로 가시적 하드페일 근거가 없다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "두 PNG 모두 제목·축라벨·범례·데이터라벨의 한글이 깨짐(두부/□)이나 자소 분리 없이 선명하게 렌더되며, 세로 회전된 축라벨(매출(억원), 영업이익률(%))도 정상 표기된다. 색 대비와 레이아웃이 발표 슬라이드에 바로 넣을 수 있는 수준으로 가시적 하드페일 근거가 없다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "vegalite",
+    "path": "/tmp/claude-1000/-home-seunghyeong/c7d6b2fc-8fb7-45b8-884f-c0c72e1ce39c/scratchpad/pocjudge/subject-vegalite.txt"
+  }
+}

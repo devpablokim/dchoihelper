@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 14040,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 17085,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 19377,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-03T01:58:17+00:00",
+  "gateId": "p2-layout-visual",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "pass",
+    "failVotes": 0,
+    "failedVotes": 0,
+    "passVotes": 3,
+    "reason": "3:0 majority pass",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/quality-general.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/quality-general.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "3b9a9d35-4121-49fa-8ab6-f74534216d6f",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 14040,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "pass",
+      "rationale": "네 템플릿 모두 제목(displayMd)>부제(bodyLg)>본문(bodyMd)의 폰트·색상 위계가 뚜렷하고, 절대좌표·bbox가 1280×720 프레임 안에서 일관된 여백(80px 기준)과 정렬을 유지하며 오버플로 hidden으로 안전하다. 액션불릿·2단비교·하이라이트박스·풀내러티브가 각기 다른 실용적 슬롯 구성을 제공해 발표용 레이아웃으로 하드게이트 기준을 명백한 증거와 함께 충족하며 하드페일 요소가 없다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "네 템플릿 모두 제목(displayMd)>부제(bodyLg)>본문(bodyMd)의 폰트·색상 위계가 뚜렷하고, 절대좌표·bbox가 1280×720 프레임 안에서 일관된 여백(80px 기준)과 정렬을 유지하며 오버플로 hidden으로 안전하다. 액션불릿·2단비교·하이라이트박스·풀내러티브가 각기 다른 실용적 슬롯 구성을 제공해 발표용 레이아웃으로 하드게이트 기준을 명백한 증거와 함께 충족하며 하드페일 요소가 없다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 17085,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "pass",
+      "rationale": "네 템플릿 모두 displayMd>bodyLg>bodyMd로 제목·부제·본문 시각 위계가 명확하고, 좌우 여백·컬럼 대칭·슬롯 bbox가 1280×720 그리드에 일관되게 정렬되어 있으며 overflow:hidden과 capacityFloors로 넘침도 방어된다. 2단 비교·하이라이트 패널·서사형 등 슬롯 구성이 실용적이고 aspectSafe이며 하드페일 증거가 보이지 않는다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "네 템플릿 모두 displayMd>bodyLg>bodyMd로 제목·부제·본문 시각 위계가 명확하고, 좌우 여백·컬럼 대칭·슬롯 bbox가 1280×720 그리드에 일관되게 정렬되어 있으며 overflow:hidden과 capacityFloors로 넘침도 방어된다. 2단 비교·하이라이트 패널·서사형 등 슬롯 구성이 실용적이고 aspectSafe이며 하드페일 증거가 보이지 않는다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 19377,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "pass",
+      "rationale": "네 템플릿 모두 제목(display)>부제(bodyLg)>본문(bodyMd)의 폰트·색상 위계가 명확하고, 좌측 마진(80/120px)·슬롯 좌표가 그리드에 일관되게 정렬돼 있으며 two-column/highlight-box의 열 분할도 대칭적이고 실용적이다. 하드페일 증거는 없고 슬롯 구성과 여백 균형이 발표용으로 충분하나, 매니페스트 bbox와 HTML CSS 좌표가 다른 스케일(≈960×540 vs 1280×720)로 표기돼 검증 시 혼동 여지가 있어 소프트 약점으로 남긴다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "네 템플릿 모두 제목(display)>부제(bodyLg)>본문(bodyMd)의 폰트·색상 위계가 명확하고, 좌측 마진(80/120px)·슬롯 좌표가 그리드에 일관되게 정렬돼 있으며 two-column/highlight-box의 열 분할도 대칭적이고 실용적이다. 하드페일 증거는 없고 슬롯 구성과 여백 균형이 발표용으로 충분하나, 매니페스트 bbox와 HTML CSS 좌표가 다른 스케일(≈960×540 vs 1280×720)로 표기돼 검증 시 혼동 여지가 있어 소프트 약점으로 남긴다.",
+        "rubricScores": {
+          "completeness": 4,
+          "fidelity": 4,
+          "honesty": 5
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 4,
+        "fidelity": 4,
+        "honesty": 5
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "text-content",
+    "path": "/tmp/claude-1000/-home-seunghyeong/c7d6b2fc-8fb7-45b8-884f-c0c72e1ce39c/scratchpad/layoutjudge/subject-text-content.txt"
+  }
+}

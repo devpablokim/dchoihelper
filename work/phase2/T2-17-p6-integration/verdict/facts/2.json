@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 7668,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "Every sourceRef resolves to exactly one original claim, and each copy string is character-for-character identical to its original, preserving all numbers (14.2%, 10.8%, 31 staff-hours, 18,400, 138 dollars, 86,000 dollars, 91%) and source-critical wording. No copied claim introduces any new quantitative value, so the fact-check gate is satisfied with clear visible evidence and no hard-fail concerns.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "Every sourceRef resolves to exactly one original claim, and each copy string is character-for-character identical to its original, preserving all numbers (14.2%, 10.8%, 31 staff-hours, 18,400, 138 dollars, 86,000 dollars, 91%) and source-critical wording. No copied claim introduces any new quantitative value, so the fact-check gate is satisfied with clear visible evidence and no hard-fail concerns.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 2
+}

@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 18988,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 20630,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 22379,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-03T02:00:10+00:00",
+  "gateId": "p2-layout-visual",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "pass",
+    "failVotes": 0,
+    "failedVotes": 0,
+    "passVotes": 3,
+    "reason": "3:0 majority pass",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/quality-general.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/quality-general.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "141c1dcf-91cc-4fd0-8854-292da071f02f",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 18988,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "pass",
+      "rationale": "네 템플릿 모두 명확한 시각 위계(displayMd/Sm 제목 > bodyMd 본문 > caption 출처)와 일관된 72~96px 여백, 정렬된 그리드(grid-3의 64/464/864px 균등 열, split의 620/704px 분할)를 갖추고 z-index 레이어링과 오버플로 hidden으로 안전 영역을 지켜 발표 슬롯 구성이 실용적이다. capacityFloors가 매니페스트와 일치하고 aspectSafe도 전 항목 true로, 가시적 하드페일 증거가 없다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "네 템플릿 모두 명확한 시각 위계(displayMd/Sm 제목 > bodyMd 본문 > caption 출처)와 일관된 72~96px 여백, 정렬된 그리드(grid-3의 64/464/864px 균등 열, split의 620/704px 분할)를 갖추고 z-index 레이어링과 오버플로 hidden으로 안전 영역을 지켜 발표 슬롯 구성이 실용적이다. capacityFloors가 매니페스트와 일치하고 aspectSafe도 전 항목 true로, 가시적 하드페일 증거가 없다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 20630,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "pass",
+      "rationale": "네 템플릿 모두 제목(display)>본문(body)>출처(caption)의 뚜렷한 타입 위계와 일관된 여백(96/64/48px), 정렬된 3분할 그리드(64/464/864px, 균등 48px 갭)를 갖추고 overflow:hidden으로 슬롯 이탈을 방어해 발표용 레이아웃으로 실용적이다. 매니페스트 bbox(960×540)와 HTML(1280×720)이 1.333배로 일관되며 가시적 하드페일 근거는 없으나, 오버레이 패널 폭·불투명도에 의존한 텍스트 대비가 실제 이미지에 따라 약해질 수 있어 소프트 우려로 남는다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "네 템플릿 모두 제목(display)>본문(body)>출처(caption)의 뚜렷한 타입 위계와 일관된 여백(96/64/48px), 정렬된 3분할 그리드(64/464/864px, 균등 48px 갭)를 갖추고 overflow:hidden으로 슬롯 이탈을 방어해 발표용 레이아웃으로 실용적이다. 매니페스트 bbox(960×540)와 HTML(1280×720)이 1.333배로 일관되며 가시적 하드페일 근거는 없으나, 오버레이 패널 폭·불투명도에 의존한 텍스트 대비가 실제 이미지에 따라 약해질 수 있어 소프트 우려로 남는다.",
+        "rubricScores": {
+          "completeness": 4,
+          "fidelity": 4,
+          "honesty": 4
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 4,
+        "fidelity": 4,
+        "honesty": 4
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 22379,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "pass",
+      "rationale": "네 템플릿 모두 1280×720 안전영역 내에 절대배치되고 제목(display)>본문(body)>출처(caption)의 타입스케일 위계가 뚜렷하며, image-grid-3은 64/464/864·폭352·간격48의 균일 3열 그리드와 96/64px 일관 여백으로 정렬·균형이 확보돼 발표용으로 실용적이다. 실측 콘텐츠가 아닌 SVG 플레이스홀더와 매니페스트 용량치만으로 판단해 실제 텍스트 오버플로 스트레스 검증 증거가 부족한 점이 소프트 약점이라 만점은 아니다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "네 템플릿 모두 1280×720 안전영역 내에 절대배치되고 제목(display)>본문(body)>출처(caption)의 타입스케일 위계가 뚜렷하며, image-grid-3은 64/464/864·폭352·간격48의 균일 3열 그리드와 96/64px 일관 여백으로 정렬·균형이 확보돼 발표용으로 실용적이다. 실측 콘텐츠가 아닌 SVG 플레이스홀더와 매니페스트 용량치만으로 판단해 실제 텍스트 오버플로 스트레스 검증 증거가 부족한 점이 소프트 약점이라 만점은 아니다.",
+        "rubricScores": {
+          "completeness": 4,
+          "fidelity": 4,
+          "honesty": 5
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 4,
+        "fidelity": 4,
+        "honesty": 5
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "image-visual",
+    "path": "/tmp/claude-1000/-home-seunghyeong/c7d6b2fc-8fb7-45b8-884f-c0c72e1ce39c/scratchpad/layoutjudge/subject-image-visual.txt"
+  }
+}

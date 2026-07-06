@@ -1,0 +1,11 @@
+{
+  "taskId": "T3-6b-bbox-undo",
+  "attempt": 0,
+  "pid": 17845,
+  "pgid": 17845,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase3/T3-6b-bbox-undo/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase3/T3-6b-bbox-undo/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-03T07:07:39Z"
+}

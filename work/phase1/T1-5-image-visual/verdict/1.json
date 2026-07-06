@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 18988,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "네 템플릿 모두 명확한 시각 위계(displayMd/Sm 제목 > bodyMd 본문 > caption 출처)와 일관된 72~96px 여백, 정렬된 그리드(grid-3의 64/464/864px 균등 열, split의 620/704px 분할)를 갖추고 z-index 레이어링과 오버플로 hidden으로 안전 영역을 지켜 발표 슬롯 구성이 실용적이다. capacityFloors가 매니페스트와 일치하고 aspectSafe도 전 항목 true로, 가시적 하드페일 증거가 없다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "네 템플릿 모두 명확한 시각 위계(displayMd/Sm 제목 > bodyMd 본문 > caption 출처)와 일관된 72~96px 여백, 정렬된 그리드(grid-3의 64/464/864px 균등 열, split의 620/704px 분할)를 갖추고 z-index 레이어링과 오버플로 hidden으로 안전 영역을 지켜 발표 슬롯 구성이 실용적이다. capacityFloors가 매니페스트와 일치하고 aspectSafe도 전 항목 true로, 가시적 하드페일 증거가 없다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 1
+}

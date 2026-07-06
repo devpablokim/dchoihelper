@@ -1,0 +1,11 @@
+{
+  "taskId": "T1-6-overflow-checker",
+  "attempt": 0,
+  "pid": 26682,
+  "pgid": 26682,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase1/T1-6-overflow-checker/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase1/T1-6-overflow-checker/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-03T00:06:51Z"
+}

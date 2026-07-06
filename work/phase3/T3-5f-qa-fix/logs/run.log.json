@@ -1,0 +1,11 @@
+{
+  "taskId": "T3-5f-qa-fix",
+  "attempt": 0,
+  "pid": 14986,
+  "pgid": 14986,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase3/T3-5f-qa-fix/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase3/T3-5f-qa-fix/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-03T08:26:11Z"
+}

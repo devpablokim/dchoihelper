@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 38870,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 8614,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 38402,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-02T19:39:40+00:00",
+  "gateId": "phase0-promotion",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "pass",
+    "failVotes": 0,
+    "failedVotes": 0,
+    "passVotes": 3,
+    "reason": "3:0 majority pass",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/quality-general.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/quality-general.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "feb43864-4f35-4bb2-b0c1-aa8910ba077e",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 38870,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "pass",
+      "rationale": "제시된 4종 핵심 스키마(deck-plan·deck-manifest·copy-reject·chart-manifest)는 attempt 상한 2회, contentRef/sourceRef 패턴, 릴리스 상태 3필드 등 2.3절 정본의 계약 규칙을 충실히 전사했고 22개 파일이 모두 존재해 게이트 통과 근거가 명확하다. 다만 정본이 '수치 차트에 한해 조건부 필수'로 규정한 sourceRef·retrievedAt·dataHash를 chart-manifest가 무조건 required로 인코딩해 단독 degrade 사용 허용과 어긋나는 소프트 편차가 보이므로 만점은 아니다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "제시된 4종 핵심 스키마(deck-plan·deck-manifest·copy-reject·chart-manifest)는 attempt 상한 2회, contentRef/sourceRef 패턴, 릴리스 상태 3필드 등 2.3절 정본의 계약 규칙을 충실히 전사했고 22개 파일이 모두 존재해 게이트 통과 근거가 명확하다. 다만 정본이 '수치 차트에 한해 조건부 필수'로 규정한 sourceRef·retrievedAt·dataHash를 chart-manifest가 무조건 required로 인코딩해 단독 degrade 사용 허용과 어긋나는 소프트 편차가 보이므로 만점은 아니다.",
+        "rubricScores": {
+          "completeness": 4,
+          "fidelity": 4,
+          "honesty": 4
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 4,
+        "fidelity": 4,
+        "honesty": 4
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 8614,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "pass",
+      "rationale": "The T0-1 schemas faithfully transcribe PLAN.md 2.3: deck-plan enforces the contentRef pattern, transform-only-for-image bindings, rejectCount cap of 2, and releaseBlocked marker; copy-reject caps attempt at 2 with the required fields; chart-manifest makes sourceRef a claims/source-pack reference and marks sourceLabel readOnly; deck-manifest requires the three release-status fields with the export enum. All 21 named contract files exist and the four core schemas match the canonical prose. No hard-fail contradiction with the source is visible in the supplied evidence.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "The T0-1 schemas faithfully transcribe PLAN.md 2.3: deck-plan enforces the contentRef pattern, transform-only-for-image bindings, rejectCount cap of 2, and releaseBlocked marker; copy-reject caps attempt at 2 with the required fields; chart-manifest makes sourceRef a claims/source-pack reference and marks sourceLabel readOnly; deck-manifest requires the three release-status fields with the export enum. All 21 named contract files exist and the four core schemas match the canonical prose. No hard-fail contradiction with the source is visible in the supplied evidence.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 38402,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "pass",
+      "rationale": "모든 2.3절 계약 파일이 스키마로 전사됐고 deck-plan·deck-manifest·copy-reject의 필드·enum·attempt 상한(1~2)·contentRef 패턴이 정본과 일치한다. 다만 chart-manifest가 '수치 렌더 시 조건부 필수'인 sourceRef·retrievedAt·dataHash를 무조건 required로 굳혀 단독 사용 degrade 등급을 표현하지 못하고 sourceRef 무결성 규칙(x-contractRules)도 누락돼, 게이트 통과는 가능하나 추적할 소프트 약점이 남는다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "모든 2.3절 계약 파일이 스키마로 전사됐고 deck-plan·deck-manifest·copy-reject의 필드·enum·attempt 상한(1~2)·contentRef 패턴이 정본과 일치한다. 다만 chart-manifest가 '수치 렌더 시 조건부 필수'인 sourceRef·retrievedAt·dataHash를 무조건 required로 굳혀 단독 사용 degrade 등급을 표현하지 못하고 sourceRef 무결성 규칙(x-contractRules)도 누락돼, 게이트 통과는 가능하나 추적할 소프트 약점이 남는다.",
+        "rubricScores": {
+          "completeness": 4,
+          "fidelity": 3,
+          "honesty": 4
+        },
+        "score": 3
+      },
+      "rubricScores": {
+        "completeness": 4,
+        "fidelity": 3,
+        "honesty": 4
+      },
+      "score": 3,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "T0-1",
+    "path": "/tmp/claude-1000/-home-seunghyeong/adc1c853-51ef-48ea-9550-0caad713a67d/scratchpad/hardjudge/subject-T0-1.txt"
+  }
+}

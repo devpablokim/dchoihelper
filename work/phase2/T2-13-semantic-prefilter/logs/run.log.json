@@ -1,0 +1,11 @@
+{
+  "taskId": "T2-13-semantic-prefilter",
+  "attempt": 0,
+  "pid": 19318,
+  "pgid": 19318,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase2/T2-13-semantic-prefilter/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase2/T2-13-semantic-prefilter/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-03T04:55:18Z"
+}

@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 17343,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 18641,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 15337,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-03T01:59:08+00:00",
+  "gateId": "p2-layout-visual",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "pass",
+    "failVotes": 0,
+    "failedVotes": 0,
+    "passVotes": 3,
+    "reason": "3:0 majority pass",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/quality-general.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/quality-general.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "5fcae3fd-e239-48ae-b3ca-e1facbb3f935",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 17343,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "pass",
+      "rationale": "All four templates share a consistent 80px margin frame (1120px content width) with clear font-token hierarchy (display-sm title > body-md content > caption source), and grid slots align evenly (KPI columns at 80/472/864 with balanced 56px gutters, split-analysis chart/analysis at 560/520 with a 40px gap). No visible overflow, collision, or hard-fail evidence in the HTML source or manifest, and slot composition is practical for presentation use.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "All four templates share a consistent 80px margin frame (1120px content width) with clear font-token hierarchy (display-sm title > body-md content > caption source), and grid slots align evenly (KPI columns at 80/472/864 with balanced 56px gutters, split-analysis chart/analysis at 560/520 with a 40px gap). No visible overflow, collision, or hard-fail evidence in the HTML source or manifest, and slot composition is practical for presentation use.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 18641,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "pass",
+      "rationale": "All four templates show a clear type hierarchy (display-sm title > strong labels > body > caption source), consistent 80px left margins with symmetric gutters (kpi three-up and split-analysis both resolve to balanced 80px outer margins and even inter-column gaps), and practical, non-overlapping slot placement within the 1280x720 frame. No overflow, misalignment, or hard-fail evidence is visible, and each slot's role and capacity is coherent with its rendered content.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "All four templates show a clear type hierarchy (display-sm title > strong labels > body > caption source), consistent 80px left margins with symmetric gutters (kpi three-up and split-analysis both resolve to balanced 80px outer margins and even inter-column gaps), and practical, non-overlapping slot placement within the 1280x720 frame. No overflow, misalignment, or hard-fail evidence is visible, and each slot's role and capacity is coherent with its rendered content.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 15337,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "pass",
+      "rationale": "네 템플릿 모두 제목>본문>출처의 명확한 시각 위계, 좌측 80px·하단 출처 라인의 일관된 여백, 2열/3-up/카드 그리드의 정렬된 슬롯 구성을 갖춰 발표용 레이아웃으로 실용적이다. 하드페일 증거는 없고 슬롯 용량·aspectSafe도 확보돼 있어 게이트 통과 기준을 충족하나, 축 라벨·범례 부재 등 소소한 개선 여지가 있어 만점은 아니다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "네 템플릿 모두 제목>본문>출처의 명확한 시각 위계, 좌측 80px·하단 출처 라인의 일관된 여백, 2열/3-up/카드 그리드의 정렬된 슬롯 구성을 갖춰 발표용 레이아웃으로 실용적이다. 하드페일 증거는 없고 슬롯 용량·aspectSafe도 확보돼 있어 게이트 통과 기준을 충족하나, 축 라벨·범례 부재 등 소소한 개선 여지가 있어 만점은 아니다.",
+        "rubricScores": {
+          "completeness": 4,
+          "fidelity": 4,
+          "honesty": 5
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 4,
+        "fidelity": 4,
+        "honesty": 5
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "data-chart",
+    "path": "/tmp/claude-1000/-home-seunghyeong/c7d6b2fc-8fb7-45b8-884f-c0c72e1ce39c/scratchpad/layoutjudge/subject-data-chart.txt"
+  }
+}

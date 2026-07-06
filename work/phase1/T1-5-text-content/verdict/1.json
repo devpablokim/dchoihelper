@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 14040,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "네 템플릿 모두 제목(displayMd)>부제(bodyLg)>본문(bodyMd)의 폰트·색상 위계가 뚜렷하고, 절대좌표·bbox가 1280×720 프레임 안에서 일관된 여백(80px 기준)과 정렬을 유지하며 오버플로 hidden으로 안전하다. 액션불릿·2단비교·하이라이트박스·풀내러티브가 각기 다른 실용적 슬롯 구성을 제공해 발표용 레이아웃으로 하드게이트 기준을 명백한 증거와 함께 충족하며 하드페일 요소가 없다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "네 템플릿 모두 제목(displayMd)>부제(bodyLg)>본문(bodyMd)의 폰트·색상 위계가 뚜렷하고, 절대좌표·bbox가 1280×720 프레임 안에서 일관된 여백(80px 기준)과 정렬을 유지하며 오버플로 hidden으로 안전하다. 액션불릿·2단비교·하이라이트박스·풀내러티브가 각기 다른 실용적 슬롯 구성을 제공해 발표용 레이아웃으로 하드게이트 기준을 명백한 증거와 함께 충족하며 하드페일 요소가 없다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 1
+}

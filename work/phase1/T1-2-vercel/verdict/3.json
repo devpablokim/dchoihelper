@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 18660,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "pass",
+  "rationale": "The tile faithfully renders Vercel's design language — near-white canvas, ink #171717, single black CTA pill, Geist/Geist Mono pairing, mesh gradient as sole ornament — and the token JSON is a coherent, complete foundation spanning palette roles, a laddered type scale with tracking, spacing, radii, and layered shadows. Minor weakness: several declared contrastPairs assert a flat 4.5 ratio that is optimistic for link #0070f3 and cyan/pink on their stated backgrounds, so honesty of the metadata is slightly overstated though it does not undermine the visible tile.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "The tile faithfully renders Vercel's design language — near-white canvas, ink #171717, single black CTA pill, Geist/Geist Mono pairing, mesh gradient as sole ornament — and the token JSON is a coherent, complete foundation spanning palette roles, a laddered type scale with tracking, spacing, radii, and layered shadows. Minor weakness: several declared contrastPairs assert a flat 4.5 ratio that is optimistic for link #0070f3 and cyan/pink on their stated backgrounds, so honesty of the metadata is slightly overstated though it does not undermine the visible tile.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 4
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 4
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 3
+}

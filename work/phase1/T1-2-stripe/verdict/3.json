@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 19561,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "pass",
+  "rationale": "토큰 체계가 일관적이다 — 팔레트 role↔raw 매핑, 타입 스케일, 간격/반경 스텝이 정합하고 HTML이 딥네이비 본문·단일 인디고 CTA·상단 그라데이션 메시·Sohne 300 웨이트·tabular 숫자 등 Stripe 디자인 시스템의 핵심 특징을 충실히 재현해 프레젠테이션 파운데이션으로서 완성도가 높다. 다만 typeScale에 24/18/28px 중복값이 과다해 위계가 다소 눌려 있고 'lemon'(#9B6829)이 실제로는 갈색 계열이며 contrastPairs가 전부 4.5로 기재돼 소프트 피드백으로 추적할 약점이 보인다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "토큰 체계가 일관적이다 — 팔레트 role↔raw 매핑, 타입 스케일, 간격/반경 스텝이 정합하고 HTML이 딥네이비 본문·단일 인디고 CTA·상단 그라데이션 메시·Sohne 300 웨이트·tabular 숫자 등 Stripe 디자인 시스템의 핵심 특징을 충실히 재현해 프레젠테이션 파운데이션으로서 완성도가 높다. 다만 typeScale에 24/18/28px 중복값이 과다해 위계가 다소 눌려 있고 'lemon'(#9B6829)이 실제로는 갈색 계열이며 contrastPairs가 전부 4.5로 기재돼 소프트 피드백으로 추적할 약점이 보인다.",
+    "rubricScores": {
+      "completeness": 4,
+      "fidelity": 5,
+      "honesty": 4
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 4,
+    "fidelity": 5,
+    "honesty": 4
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 3
+}

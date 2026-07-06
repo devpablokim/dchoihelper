@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 18641,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "All four templates show a clear type hierarchy (display-sm title > strong labels > body > caption source), consistent 80px left margins with symmetric gutters (kpi three-up and split-analysis both resolve to balanced 80px outer margins and even inter-column gaps), and practical, non-overlapping slot placement within the 1280x720 frame. No overflow, misalignment, or hard-fail evidence is visible, and each slot's role and capacity is coherent with its rendered content.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "All four templates show a clear type hierarchy (display-sm title > strong labels > body > caption source), consistent 80px left margins with symmetric gutters (kpi three-up and split-analysis both resolve to balanced 80px outer margins and even inter-column gaps), and practical, non-overlapping slot placement within the 1280x720 frame. No overflow, misalignment, or hard-fail evidence is visible, and each slot's role and capacity is coherent with its rendered content.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 2
+}

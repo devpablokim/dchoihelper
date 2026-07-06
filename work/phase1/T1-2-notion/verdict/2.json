@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 12689,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "The 'notion' style tile shows a coherent token system with a harmonious pastel-plus-navy palette, a clear type hierarchy (80/56/32/24) and a consistent spacing/radius scale, all faithfully echoing Notion's editorial design language via the deep navy hero, purple pill CTA, and tinted cards. Palette swatches, typography scale, and button/card components are all rendered with visible evidence and no hard-fail concerns, making it a complete presentation foundation.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "The 'notion' style tile shows a coherent token system with a harmonious pastel-plus-navy palette, a clear type hierarchy (80/56/32/24) and a consistent spacing/radius scale, all faithfully echoing Notion's editorial design language via the deep navy hero, purple pill CTA, and tinted cards. Palette swatches, typography scale, and button/card components are all rendered with visible evidence and no hard-fail concerns, making it a complete presentation foundation.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 2
+}

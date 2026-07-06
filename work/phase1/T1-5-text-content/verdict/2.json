@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 17085,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "네 템플릿 모두 displayMd>bodyLg>bodyMd로 제목·부제·본문 시각 위계가 명확하고, 좌우 여백·컬럼 대칭·슬롯 bbox가 1280×720 그리드에 일관되게 정렬되어 있으며 overflow:hidden과 capacityFloors로 넘침도 방어된다. 2단 비교·하이라이트 패널·서사형 등 슬롯 구성이 실용적이고 aspectSafe이며 하드페일 증거가 보이지 않는다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "네 템플릿 모두 displayMd>bodyLg>bodyMd로 제목·부제·본문 시각 위계가 명확하고, 좌우 여백·컬럼 대칭·슬롯 bbox가 1280×720 그리드에 일관되게 정렬되어 있으며 overflow:hidden과 capacityFloors로 넘침도 방어된다. 2단 비교·하이라이트 패널·서사형 등 슬롯 구성이 실용적이고 aspectSafe이며 하드페일 증거가 보이지 않는다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 2
+}

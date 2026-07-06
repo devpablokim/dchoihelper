@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 13307,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "모든 sourceRef가 정확히 하나의 원본 클레임에 대응하고, 다섯 슬라이드의 모든 copy 텍스트가 원본과 완전히 일치해 수치(14.2%, 10.8%, 31 staff-hours, 18,400, 138달러, 86,000달러, 91%)와 출처 핵심 표현이 그대로 보존된다. 새로 도입된 정량값이나 왜곡·환각이 전혀 없어 하드게이트 통과 기준을 명백한 증거로 충족한다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "모든 sourceRef가 정확히 하나의 원본 클레임에 대응하고, 다섯 슬라이드의 모든 copy 텍스트가 원본과 완전히 일치해 수치(14.2%, 10.8%, 31 staff-hours, 18,400, 138달러, 86,000달러, 91%)와 출처 핵심 표현이 그대로 보존된다. 새로 도입된 정량값이나 왜곡·환각이 전혀 없어 하드게이트 통과 기준을 명백한 증거로 충족한다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 1
+}

@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 29882,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 25466,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 21180,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-02T19:40:56+00:00",
+  "gateId": "phase0-promotion",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "pass",
+    "failVotes": 0,
+    "failedVotes": 0,
+    "passVotes": 3,
+    "reason": "3:0 majority pass",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/quality-general.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/quality-general.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "23d6a262-93c6-4906-abf7-0506a4c4c5e5",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 29882,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "pass",
+      "rationale": "17개 행 모두 evidencePath·sourceUrl·retrievedAt·verdict를 갖추고, 미확인 corazzon 자산을 unverified/defer로 격리해 '확인 전 사용 금지'와 3단계 후속 확인법까지 명시한 정직한 처리가 하드게이트 기준을 충족한다. 조건부 채택(adopt-with-conditions) 7건의 조건이 자산별로 원문 인용과 함께 구체적으로 열거되어 신뢰 가능하나, MIT에 부기된 비표준 'Scope 조항' 등 일부 주장은 표만으로 독립 재검증이 어려워 소프트 피드백으로 남는다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "17개 행 모두 evidencePath·sourceUrl·retrievedAt·verdict를 갖추고, 미확인 corazzon 자산을 unverified/defer로 격리해 '확인 전 사용 금지'와 3단계 후속 확인법까지 명시한 정직한 처리가 하드게이트 기준을 충족한다. 조건부 채택(adopt-with-conditions) 7건의 조건이 자산별로 원문 인용과 함께 구체적으로 열거되어 신뢰 가능하나, MIT에 부기된 비표준 'Scope 조항' 등 일부 주장은 표만으로 독립 재검증이 어려워 소프트 피드백으로 남는다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 4,
+          "honesty": 5
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 4,
+        "honesty": 5
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 25466,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "pass",
+      "rationale": "17개 자산 각각에 라이선스·조건·evidencePath·sourceUrl·retrievedAt·verdict가 붙어 판정 근거가 증거로 뒷받침되며, corazzon 계열은 명시 라이선스 부재를 근거로 unverified/defer 처리하고 확인 전 사용 금지를 명확히 해 정직성이 높다. adopt-with-conditions 7건도 조건이 조항 단위로 구체적이고 부분확인·경계 항목을 별도 절로 투명하게 분리했으나, 일부 출처 귀속(예: Astryx를 Meta MIT로 표기)이 다소 이례적이라 소프트 피드백 여지가 있어 만점은 아니다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "17개 자산 각각에 라이선스·조건·evidencePath·sourceUrl·retrievedAt·verdict가 붙어 판정 근거가 증거로 뒷받침되며, corazzon 계열은 명시 라이선스 부재를 근거로 unverified/defer 처리하고 확인 전 사용 금지를 명확히 해 정직성이 높다. adopt-with-conditions 7건도 조건이 조항 단위로 구체적이고 부분확인·경계 항목을 별도 절로 투명하게 분리했으나, 일부 출처 귀속(예: Astryx를 Meta MIT로 표기)이 다소 이례적이라 소프트 피드백 여지가 있어 만점은 아니다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 4,
+          "honesty": 5
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 4,
+        "honesty": 5
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 21180,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "pass",
+      "rationale": "모든 행이 sourceUrl·evidencePath·retrievedAt와 verdict를 갖추고 조건부 채택 7건의 조건이 조항 번호까지 명시되어 근거 타당성과 조건 명확성이 확보됐으며, corazzon 원류를 unverified/defer로 분리해 '확인 전 사용 금지'로 처리한 점에서 정직성이 뛰어나다. 다만 Astryx의 'Meta Platforms/facebook/astryx' 귀속 등 일부 자산의 출처는 독립 검증 없이는 확인 곤란해 만점에는 미치지 못하나, 하드게이트 통과 기준(증거 기반 신뢰 가능성)은 충분히 충족한다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "모든 행이 sourceUrl·evidencePath·retrievedAt와 verdict를 갖추고 조건부 채택 7건의 조건이 조항 번호까지 명시되어 근거 타당성과 조건 명확성이 확보됐으며, corazzon 원류를 unverified/defer로 분리해 '확인 전 사용 금지'로 처리한 점에서 정직성이 뛰어나다. 다만 Astryx의 'Meta Platforms/facebook/astryx' 귀속 등 일부 자산의 출처는 독립 검증 없이는 확인 곤란해 만점에는 미치지 못하나, 하드게이트 통과 기준(증거 기반 신뢰 가능성)은 충분히 충족한다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 4,
+          "honesty": 5
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 4,
+        "honesty": 5
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "T0-6",
+    "path": "/tmp/claude-1000/-home-seunghyeong/adc1c853-51ef-48ea-9550-0caad713a67d/scratchpad/hardjudge/subject-T0-6.txt"
+  }
+}

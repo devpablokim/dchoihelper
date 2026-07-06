@@ -1,0 +1,11 @@
+{
+  "taskId": "T1-9-color",
+  "attempt": 0,
+  "pid": 32289,
+  "pgid": 32289,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase1/T1-9-color/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase1/T1-9-color/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-02T23:26:50Z"
+}

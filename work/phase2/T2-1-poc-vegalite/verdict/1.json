@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 16520,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "두 PNG 모두 제목·축라벨·범례·데이터라벨의 한글(분기별 매출과 영업이익률, 채널별 분기 매출, 온라인/오프라인/파트너, 억원 등)이 깨짐이나 두부(tofu) 없이 선명하게 렌더된다. 축·범례·색상 대비가 명확하고 데이터라벨이 정확해 발표 슬라이드에 바로 넣을 수 있는 수준이다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "두 PNG 모두 제목·축라벨·범례·데이터라벨의 한글(분기별 매출과 영업이익률, 채널별 분기 매출, 온라인/오프라인/파트너, 억원 등)이 깨짐이나 두부(tofu) 없이 선명하게 렌더된다. 축·범례·색상 대비가 명확하고 데이터라벨이 정확해 발표 슬라이드에 바로 넣을 수 있는 수준이다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 1
+}

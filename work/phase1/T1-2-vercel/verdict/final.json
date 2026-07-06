@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 15307,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 19546,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 18660,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-03T00:10:10+00:00",
+  "gateId": "p1-style-tile",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "pass",
+    "failVotes": 0,
+    "failedVotes": 0,
+    "passVotes": 3,
+    "reason": "3:0 majority pass",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/quality-general.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/quality-general.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "ab5fd610-0c53-4729-8629-b9c225296cfb",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 15307,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "pass",
+      "rationale": "토큰 JSON은 팔레트 역할·타입 스케일·간격·대비쌍이 일관된 체계로 정의되어 있고, HTML 타일은 near-white 캔버스·ink 텍스트·Geist/Mono·메시 그라데이션·단일 흑색 CTA pill이라는 Vercel 디자인 시스템 특징을 충실히 렌더링한다. 팔레트·타이포 위계·간격 체계가 조화롭고 하드페일 근거가 보이지 않아 프레젠테이션 파운데이션으로서 완성도가 높다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "토큰 JSON은 팔레트 역할·타입 스케일·간격·대비쌍이 일관된 체계로 정의되어 있고, HTML 타일은 near-white 캔버스·ink 텍스트·Geist/Mono·메시 그라데이션·단일 흑색 CTA pill이라는 Vercel 디자인 시스템 특징을 충실히 렌더링한다. 팔레트·타이포 위계·간격 체계가 조화롭고 하드페일 근거가 보이지 않아 프레젠테이션 파운데이션으로서 완성도가 높다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 19546,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "pass",
+      "rationale": "팔레트(ink·canvas 래더·link/violet/cyan/pink 액센트)·타이포 위계(display→body→mono)·간격/라운드/섀도 토큰이 일관되게 정의되어 Vercel 디자인 시스템다움을 명확한 시각 증거로 보여준다. 히어로 메시 그라데이션, 단일 흑색 CTA pill, Geist/Geist Mono 라벨, 3겹 스택 섀도가 원본 시스템 규칙과 정합하며 하드페일 근거가 보이지 않는다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "팔레트(ink·canvas 래더·link/violet/cyan/pink 액센트)·타이포 위계(display→body→mono)·간격/라운드/섀도 토큰이 일관되게 정의되어 Vercel 디자인 시스템다움을 명확한 시각 증거로 보여준다. 히어로 메시 그라데이션, 단일 흑색 CTA pill, Geist/Geist Mono 라벨, 3겹 스택 섀도가 원본 시스템 규칙과 정합하며 하드페일 근거가 보이지 않는다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 18660,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "pass",
+      "rationale": "The tile faithfully renders Vercel's design language — near-white canvas, ink #171717, single black CTA pill, Geist/Geist Mono pairing, mesh gradient as sole ornament — and the token JSON is a coherent, complete foundation spanning palette roles, a laddered type scale with tracking, spacing, radii, and layered shadows. Minor weakness: several declared contrastPairs assert a flat 4.5 ratio that is optimistic for link #0070f3 and cyan/pink on their stated backgrounds, so honesty of the metadata is slightly overstated though it does not undermine the visible tile.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "The tile faithfully renders Vercel's design language — near-white canvas, ink #171717, single black CTA pill, Geist/Geist Mono pairing, mesh gradient as sole ornament — and the token JSON is a coherent, complete foundation spanning palette roles, a laddered type scale with tracking, spacing, radii, and layered shadows. Minor weakness: several declared contrastPairs assert a flat 4.5 ratio that is optimistic for link #0070f3 and cyan/pink on their stated backgrounds, so honesty of the metadata is slightly overstated though it does not undermine the visible tile.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 4
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 4
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "vercel",
+    "path": "/tmp/claude-1000/-home-seunghyeong/c7d6b2fc-8fb7-45b8-884f-c0c72e1ce39c/scratchpad/tilejudge/subject-vercel.txt"
+  }
+}

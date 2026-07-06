@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 16072,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "토큰 체계가 8px 배수 간격(8/16/24/32/48/64)과 4단 타이포 스케일(64/40/32/24), 정부 블루 기반 팔레트+의미색(danger/success)으로 일관되며, 대비쌍·KOGL 출처 명시까지 갖춰 KRDS다운 완성도를 보인다. HTML 타일이 팔레트·타이포·컴포넌트(버튼/카드/필)·푸터를 인라인 CSS 1280×720으로 결함 없이 렌더하여 프레젠테이션 파운데이션으로 충분하다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "토큰 체계가 8px 배수 간격(8/16/24/32/48/64)과 4단 타이포 스케일(64/40/32/24), 정부 블루 기반 팔레트+의미색(danger/success)으로 일관되며, 대비쌍·KOGL 출처 명시까지 갖춰 KRDS다운 완성도를 보인다. HTML 타일이 팔레트·타이포·컴포넌트(버튼/카드/필)·푸터를 인라인 CSS 1280×720으로 결함 없이 렌더하여 프레젠테이션 파운데이션으로 충분하다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 1
+}

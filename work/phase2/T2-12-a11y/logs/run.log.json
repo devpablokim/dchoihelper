@@ -1,0 +1,11 @@
+{
+  "taskId": "T2-12-a11y",
+  "attempt": 0,
+  "pid": 23589,
+  "pgid": 23589,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase2/T2-12-a11y/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase2/T2-12-a11y/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-03T04:23:41Z"
+}

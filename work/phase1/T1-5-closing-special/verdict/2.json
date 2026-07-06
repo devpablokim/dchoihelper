@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 25095,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "네 템플릿 모두 display/body/caption·mono 토큰으로 제목>본문>출처의 시각 위계가 명확하고, 96px 좌여백·중앙정렬·액센트 룰로 그리드 정렬과 여백 균형이 일관되며 매니페스트 bbox(960공간)와 HTML(1280공간)이 1.333 배율로 정합해 하드페일 근거가 보이지 않는다. big-stat의 statValue 슬롯이 실제 내용 대비 과대하고 summary-cta의 2단 폭 배분이 다소 우측 편중이라는 소프트 약점이 있으나 게이트 통과에는 지장이 없다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "네 템플릿 모두 display/body/caption·mono 토큰으로 제목>본문>출처의 시각 위계가 명확하고, 96px 좌여백·중앙정렬·액센트 룰로 그리드 정렬과 여백 균형이 일관되며 매니페스트 bbox(960공간)와 HTML(1280공간)이 1.333 배율로 정합해 하드페일 근거가 보이지 않는다. big-stat의 statValue 슬롯이 실제 내용 대비 과대하고 summary-cta의 2단 폭 배분이 다소 우측 편중이라는 소프트 약점이 있으나 게이트 통과에는 지장이 없다.",
+    "rubricScores": {
+      "completeness": 4,
+      "fidelity": 4,
+      "honesty": 5
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 4,
+    "fidelity": 4,
+    "honesty": 5
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 2
+}

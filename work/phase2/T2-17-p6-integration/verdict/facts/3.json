@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 11731,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "pass",
+  "rationale": "모든 슬라이드에서 copy 텍스트가 original claim과 문자 단위로 완전히 일치하며, 각 sourceRef가 정확히 하나의 원본 주장으로 해소된다. 수치(14.2%, 10.8%, 31시간, 18,400건, 138달러, 86,000달러, 91%)와 출처 핵심 문구가 모두 보존되었고 새로운 정량값이 추가된 흔적이 없다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "모든 슬라이드에서 copy 텍스트가 original claim과 문자 단위로 완전히 일치하며, 각 sourceRef가 정확히 하나의 원본 주장으로 해소된다. 수치(14.2%, 10.8%, 31시간, 18,400건, 138달러, 86,000달러, 91%)와 출처 핵심 문구가 모두 보존되었고 새로운 정량값이 추가된 흔적이 없다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 3
+}

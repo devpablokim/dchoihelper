@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 22105,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "네 템플릿 모두 폰트 토큰(display>body>caption)과 컬러 토큰(ink/body/mute)으로 제목>부제>본문 시각 위계가 명확하고, 좌측 정렬 여백·bbox가 매니페스트와 0.75 스케일로 일관되며 슬롯별 capacity 예산·aspectSafe가 실용적이다. overflow:hidden 클리핑과 accent bar·leading-zero 카운터 등 구성이 발표용으로 완결되어 있고 가시적 하드페일 근거가 없다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "네 템플릿 모두 폰트 토큰(display>body>caption)과 컬러 토큰(ink/body/mute)으로 제목>부제>본문 시각 위계가 명확하고, 좌측 정렬 여백·bbox가 매니페스트와 0.75 스케일로 일관되며 슬롯별 capacity 예산·aspectSafe가 실용적이다. overflow:hidden 클리핑과 accent bar·leading-zero 카운터 등 구성이 발표용으로 완결되어 있고 가시적 하드페일 근거가 없다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 1
+}

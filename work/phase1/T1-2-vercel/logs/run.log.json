@@ -1,0 +1,11 @@
+{
+  "taskId": "T1-2-vercel",
+  "attempt": 0,
+  "pid": 424,
+  "pgid": 424,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase1/T1-2-vercel/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase1/T1-2-vercel/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-02T23:48:39Z"
+}

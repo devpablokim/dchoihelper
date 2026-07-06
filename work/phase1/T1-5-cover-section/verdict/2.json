@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 21724,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "네 템플릿 모두 절대좌표 슬롯과 bbox가 명시돼 제목>부제>본문의 시각 위계가 폰트 크기·색·굵기 토큰으로 뚜렷이 구현됐고, 여백(96~160px)과 rule 장식·그리드 정렬이 균형 잡혀 발표용 레이아웃으로 실용적이다. 매니페스트(960 기준)와 HTML(1280 기준) 좌표가 1.333 배율로 일관되며 overflow 차단·capacityFloors까지 갖춰 하드게이트 통과에 충분하되, 슬롯당 단일 데모 콘텐츠만 있어 다양한 길이 대응 근거는 소프트 피드백으로 남는다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "네 템플릿 모두 절대좌표 슬롯과 bbox가 명시돼 제목>부제>본문의 시각 위계가 폰트 크기·색·굵기 토큰으로 뚜렷이 구현됐고, 여백(96~160px)과 rule 장식·그리드 정렬이 균형 잡혀 발표용 레이아웃으로 실용적이다. 매니페스트(960 기준)와 HTML(1280 기준) 좌표가 1.333 배율로 일관되며 overflow 차단·capacityFloors까지 갖춰 하드게이트 통과에 충분하되, 슬롯당 단일 데모 콘텐츠만 있어 다양한 길이 대응 근거는 소프트 피드백으로 남는다.",
+    "rubricScores": {
+      "completeness": 4,
+      "fidelity": 4,
+      "honesty": 5
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 4,
+    "fidelity": 4,
+    "honesty": 5
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 2
+}

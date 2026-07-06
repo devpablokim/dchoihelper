@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 14098,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 14963,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 13193,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-03T03:35:26+00:00",
+  "gateId": "p3-korean-render",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "pass",
+    "failVotes": 0,
+    "failedVotes": 0,
+    "passVotes": 3,
+    "reason": "3:0 majority pass",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/quality-general.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/quality-general.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "ada73cb7-bcca-452a-8d43-98d3c479a135",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 14098,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "pass",
+      "rationale": "세 PNG 모두 제목·노드라벨·축라벨·범례·연결선 라벨의 한글이 두부(□)나 깨짐 없이 선명하게 렌더되었고, 색상·정렬·간격이 발표 슬라이드에 바로 넣을 수 있는 수준이다. 가시적 하드페일 증거가 없으며 루브릭 5점 앵커(명확한 게이트 충족·중대 결함 없음)를 충족한다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "세 PNG 모두 제목·노드라벨·축라벨·범례·연결선 라벨의 한글이 두부(□)나 깨짐 없이 선명하게 렌더되었고, 색상·정렬·간격이 발표 슬라이드에 바로 넣을 수 있는 수준이다. 가시적 하드페일 증거가 없으며 루브릭 5점 앵커(명확한 게이트 충족·중대 결함 없음)를 충족한다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 14963,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "pass",
+      "rationale": "세 PNG 모두 제목·노드 라벨·축라벨·연결선 라벨·범례의 한글(2026년 1분기 매출 조직도, 영업이익률, 데이터라벨 등)이 깨짐이나 두부(□) 없이 선명하게 렌더되어 발표 슬라이드에 넣을 수 있는 수준이다. 색상 구분·레이아웃·화살표 방향도 정돈되어 있고 하드페일 증거가 보이지 않는다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "세 PNG 모두 제목·노드 라벨·축라벨·연결선 라벨·범례의 한글(2026년 1분기 매출 조직도, 영업이익률, 데이터라벨 등)이 깨짐이나 두부(□) 없이 선명하게 렌더되어 발표 슬라이드에 넣을 수 있는 수준이다. 색상 구분·레이아웃·화살표 방향도 정돈되어 있고 하드페일 증거가 보이지 않는다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 13193,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "pass",
+      "rationale": "세 PNG 모두 제목·노드·축라벨·범례·데이터라벨의 한글 텍스트가 두부(□) 없이 선명하게 렌더되며 잘림이나 겹침 없이 발표 슬라이드에 넣을 수 있는 수준이다. 조직도·상태도·폴백 세 케이스 모두 색상·화살표·범례가 일관되게 구성되어 하드페일 근거가 보이지 않는다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "세 PNG 모두 제목·노드·축라벨·범례·데이터라벨의 한글 텍스트가 두부(□) 없이 선명하게 렌더되며 잘림이나 겹침 없이 발표 슬라이드에 넣을 수 있는 수준이다. 조직도·상태도·폴백 세 케이스 모두 색상·화살표·범례가 일관되게 구성되어 하드페일 근거가 보이지 않는다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "graphviz",
+    "path": "/tmp/claude-1000/-home-seunghyeong/c7d6b2fc-8fb7-45b8-884f-c0c72e1ce39c/scratchpad/pocjudge/subject-graphviz.txt"
+  }
+}

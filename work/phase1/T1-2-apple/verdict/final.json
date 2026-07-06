@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 17571,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 17738,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 17827,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-03T00:06:46+00:00",
+  "gateId": "p1-style-tile",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "pass",
+    "failVotes": 0,
+    "failedVotes": 0,
+    "passVotes": 3,
+    "reason": "3:0 majority pass",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/quality-general.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/quality-general.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "0066d2e6-cf02-4ba1-bc3c-eec8e03b326c",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 17571,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "pass",
+      "rationale": "팔레트·타이포 위계·간격·radius가 tokens.json과 tile.html에서 일관되게 연결되고 대비쌍이 명시돼 있어 애플 디자인 시스템다움과 파운데이션 완성도가 시각적 증거로 뒷받침된다. 하드페일 근거가 없고 나브·히어로·팔레트·타입스케일·컴포넌트가 모두 렌더되어 프레젠테이션 기반으로 충분하다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "팔레트·타이포 위계·간격·radius가 tokens.json과 tile.html에서 일관되게 연결되고 대비쌍이 명시돼 있어 애플 디자인 시스템다움과 파운데이션 완성도가 시각적 증거로 뒷받침된다. 하드페일 근거가 없고 나브·히어로·팔레트·타입스케일·컴포넌트가 모두 렌더되어 프레젠테이션 기반으로 충분하다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 17738,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "pass",
+      "rationale": "토큰 체계가 팔레트(블루 액션·중립 그레이·니어블랙 서피스)·타이포 위계(56→18pt 명확한 스텝)·간격 스케일(4~80px)에서 일관되며 Apple 디자인 시스템의 절제된 라이트 캔버스·단일 블루 액션·물러나는 제품 깊이를 충실히 재현한다. 대비쌍이 모두 4.5 이상으로 명시되고 nav/hero/palette/type/component 샘플이 프레젠테이션 파운데이션으로 충분해 하드페일 근거는 없으나, 일부 선언 토큰이 타일에서 시연되지 않은 점은 소프트 약점이다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "토큰 체계가 팔레트(블루 액션·중립 그레이·니어블랙 서피스)·타이포 위계(56→18pt 명확한 스텝)·간격 스케일(4~80px)에서 일관되며 Apple 디자인 시스템의 절제된 라이트 캔버스·단일 블루 액션·물러나는 제품 깊이를 충실히 재현한다. 대비쌍이 모두 4.5 이상으로 명시되고 nav/hero/palette/type/component 샘플이 프레젠테이션 파운데이션으로 충분해 하드페일 근거는 없으나, 일부 선언 토큰이 타일에서 시연되지 않은 점은 소프트 약점이다.",
+        "rubricScores": {
+          "completeness": 4,
+          "fidelity": 5,
+          "honesty": 4
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 4,
+        "fidelity": 5,
+        "honesty": 4
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 17827,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "pass",
+      "rationale": "토큰 체계가 팔레트 역할/원본 분리, 위계적 타입 스케일, 8pt 기반 간격, AA 대비쌍까지 일관되게 정의돼 Apple 디자인 시스템다움과 파운데이션 완성도를 시각적 증거로 충족한다. 히어로·팔레트·타입스케일·컴포넌트 타일이 하드페일 없이 조화롭게 렌더되나, body-copy에 display 폰트를 lead 크기로 쓴 점과 대비비가 실측 아닌 선언값(4.5)이라는 점이 소프트 약점으로 남는다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "토큰 체계가 팔레트 역할/원본 분리, 위계적 타입 스케일, 8pt 기반 간격, AA 대비쌍까지 일관되게 정의돼 Apple 디자인 시스템다움과 파운데이션 완성도를 시각적 증거로 충족한다. 히어로·팔레트·타입스케일·컴포넌트 타일이 하드페일 없이 조화롭게 렌더되나, body-copy에 display 폰트를 lead 크기로 쓴 점과 대비비가 실측 아닌 선언값(4.5)이라는 점이 소프트 약점으로 남는다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 4,
+          "honesty": 4
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 4,
+        "honesty": 4
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "apple",
+    "path": "/tmp/claude-1000/-home-seunghyeong/c7d6b2fc-8fb7-45b8-884f-c0c72e1ce39c/scratchpad/tilejudge/subject-apple.txt"
+  }
+}

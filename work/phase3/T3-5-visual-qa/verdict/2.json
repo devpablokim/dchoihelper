@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 18934,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "fail",
+  "rationale": "Slide 3 is a hard fail: an empty mint placeholder box occupies the left panel where a chart/image should render, elements bleed off the left slide edge, and a stray dark 'Contact audit' badge overlaps a blue bar — broken layout unfit for a commercial-grade deck. Slides 1–2 show clean hierarchy and alignment, but one collapsed slide fails the hard gate.",
+  "raw": {
+    "decision": "fail",
+    "rationale": "Slide 3 is a hard fail: an empty mint placeholder box occupies the left panel where a chart/image should render, elements bleed off the left slide edge, and a stray dark 'Contact audit' badge overlaps a blue bar — broken layout unfit for a commercial-grade deck. Slides 1–2 show clean hierarchy and alignment, but one collapsed slide fails the hard gate.",
+    "rubricScores": {
+      "completeness": 2,
+      "fidelity": 1,
+      "honesty": 3
+    },
+    "score": 1
+  },
+  "rubricScores": {
+    "completeness": 2,
+    "fidelity": 1,
+    "honesty": 3
+  },
+  "score": 1,
+  "status": "success",
+  "vote": 2
+}

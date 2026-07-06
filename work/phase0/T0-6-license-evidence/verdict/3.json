@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 21180,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "pass",
+  "rationale": "모든 행이 sourceUrl·evidencePath·retrievedAt와 verdict를 갖추고 조건부 채택 7건의 조건이 조항 번호까지 명시되어 근거 타당성과 조건 명확성이 확보됐으며, corazzon 원류를 unverified/defer로 분리해 '확인 전 사용 금지'로 처리한 점에서 정직성이 뛰어나다. 다만 Astryx의 'Meta Platforms/facebook/astryx' 귀속 등 일부 자산의 출처는 독립 검증 없이는 확인 곤란해 만점에는 미치지 못하나, 하드게이트 통과 기준(증거 기반 신뢰 가능성)은 충분히 충족한다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "모든 행이 sourceUrl·evidencePath·retrievedAt와 verdict를 갖추고 조건부 채택 7건의 조건이 조항 번호까지 명시되어 근거 타당성과 조건 명확성이 확보됐으며, corazzon 원류를 unverified/defer로 분리해 '확인 전 사용 금지'로 처리한 점에서 정직성이 뛰어나다. 다만 Astryx의 'Meta Platforms/facebook/astryx' 귀속 등 일부 자산의 출처는 독립 검증 없이는 확인 곤란해 만점에는 미치지 못하나, 하드게이트 통과 기준(증거 기반 신뢰 가능성)은 충분히 충족한다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 4,
+      "honesty": 5
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 4,
+    "honesty": 5
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 3
+}

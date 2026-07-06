@@ -1,0 +1,11 @@
+{
+  "taskId": "T1-2-linear",
+  "attempt": 0,
+  "pid": 9858,
+  "pgid": 9858,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase1/T1-2-linear/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase1/T1-2-linear/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-02T23:41:32Z"
+}

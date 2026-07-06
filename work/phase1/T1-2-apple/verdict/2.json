@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 17738,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "토큰 체계가 팔레트(블루 액션·중립 그레이·니어블랙 서피스)·타이포 위계(56→18pt 명확한 스텝)·간격 스케일(4~80px)에서 일관되며 Apple 디자인 시스템의 절제된 라이트 캔버스·단일 블루 액션·물러나는 제품 깊이를 충실히 재현한다. 대비쌍이 모두 4.5 이상으로 명시되고 nav/hero/palette/type/component 샘플이 프레젠테이션 파운데이션으로 충분해 하드페일 근거는 없으나, 일부 선언 토큰이 타일에서 시연되지 않은 점은 소프트 약점이다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "토큰 체계가 팔레트(블루 액션·중립 그레이·니어블랙 서피스)·타이포 위계(56→18pt 명확한 스텝)·간격 스케일(4~80px)에서 일관되며 Apple 디자인 시스템의 절제된 라이트 캔버스·단일 블루 액션·물러나는 제품 깊이를 충실히 재현한다. 대비쌍이 모두 4.5 이상으로 명시되고 nav/hero/palette/type/component 샘플이 프레젠테이션 파운데이션으로 충분해 하드페일 근거는 없으나, 일부 선언 토큰이 타일에서 시연되지 않은 점은 소프트 약점이다.",
+    "rubricScores": {
+      "completeness": 4,
+      "fidelity": 5,
+      "honesty": 4
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 4,
+    "fidelity": 5,
+    "honesty": 4
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 2
+}
