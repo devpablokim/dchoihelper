@@ -1,0 +1,1 @@
+{"outcome":"excluded","reason":"chromium 조기 종료 일관 실패, 재시도 상한 도달","fallback":"graphviz","recordedIn":"packages/deck-charts/poc/POC-VERDICT.md"}

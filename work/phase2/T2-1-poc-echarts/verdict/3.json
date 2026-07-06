@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 23360,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "pass",
+  "rationale": "두 PNG 모두 한글 텍스트(제목·축라벨·범례·데이터라벨)가 두부(tofu)나 글자 깨짐 없이 선명하게 렌더링돼 한글 골든 렌더 게이트의 핵심 기준을 충족한다. 다만 stacked-bar에서 데이터라벨이 막대 좌측 경계에서 잘리고(예: '스 매출 7', '내 매출 180억') 상단 '매출(억원)' 축제목이 범례와 겹치는 레이아웃 결함이 보여 발표용으로는 소프트 피드백이 필요한 약점이 있다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "두 PNG 모두 한글 텍스트(제목·축라벨·범례·데이터라벨)가 두부(tofu)나 글자 깨짐 없이 선명하게 렌더링돼 한글 골든 렌더 게이트의 핵심 기준을 충족한다. 다만 stacked-bar에서 데이터라벨이 막대 좌측 경계에서 잘리고(예: '스 매출 7', '내 매출 180억') 상단 '매출(억원)' 축제목이 범례와 겹치는 레이아웃 결함이 보여 발표용으로는 소프트 피드백이 필요한 약점이 있다.",
+    "rubricScores": {
+      "completeness": 3,
+      "fidelity": 4,
+      "honesty": 3
+    },
+    "score": 3
+  },
+  "rubricScores": {
+    "completeness": 3,
+    "fidelity": 4,
+    "honesty": 3
+  },
+  "score": 3,
+  "status": "success",
+  "vote": 3
+}

@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 20630,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "네 템플릿 모두 제목(display)>본문(body)>출처(caption)의 뚜렷한 타입 위계와 일관된 여백(96/64/48px), 정렬된 3분할 그리드(64/464/864px, 균등 48px 갭)를 갖추고 overflow:hidden으로 슬롯 이탈을 방어해 발표용 레이아웃으로 실용적이다. 매니페스트 bbox(960×540)와 HTML(1280×720)이 1.333배로 일관되며 가시적 하드페일 근거는 없으나, 오버레이 패널 폭·불투명도에 의존한 텍스트 대비가 실제 이미지에 따라 약해질 수 있어 소프트 우려로 남는다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "네 템플릿 모두 제목(display)>본문(body)>출처(caption)의 뚜렷한 타입 위계와 일관된 여백(96/64/48px), 정렬된 3분할 그리드(64/464/864px, 균등 48px 갭)를 갖추고 overflow:hidden으로 슬롯 이탈을 방어해 발표용 레이아웃으로 실용적이다. 매니페스트 bbox(960×540)와 HTML(1280×720)이 1.333배로 일관되며 가시적 하드페일 근거는 없으나, 오버레이 패널 폭·불투명도에 의존한 텍스트 대비가 실제 이미지에 따라 약해질 수 있어 소프트 우려로 남는다.",
+    "rubricScores": {
+      "completeness": 4,
+      "fidelity": 4,
+      "honesty": 4
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 4,
+    "fidelity": 4,
+    "honesty": 4
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 2
+}

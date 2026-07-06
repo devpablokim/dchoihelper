@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "deck-factory",
+  "version": "0.1.0",
+  "description": "Presentation-grade dark-editorial HTML deck design system, packaged as a Claude Code skill. One line of intent → a deck that looks like it came out of a real keynote.",
+  "author": {
+    "name": "kimsh-1",
+    "email": "seunghyeong41@gmail.com"
+  },
+  "homepage": "https://github.com/kimsh-1/deck-factory",
+  "license": "MIT",
+  "keywords": ["presentation", "slides", "deck", "design-system", "editorial", "html", "pdf", "claude-code", "skill"]
+}

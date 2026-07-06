@@ -1,0 +1,17 @@
+incubator/
+vendor/*
+!vendor/PINS.json
+work/*/*/wt/
+work/*/*/out/
+work/*/*/logs/*
+!work/*/*/logs/run.log.json
+.omc/
+out/
+
+# --- showcase repo hygiene ---
+videos/*/renders/
+videos/*/node_modules/
+videos/final/
+videos/assets/bgm/
+*.pdf
+docs/media/*.wav

@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 21991,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 20847,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 24183,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-03T06:44:19+00:00",
+  "gateId": "p6-integration-titles",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "pass",
+    "failVotes": 0,
+    "failedVotes": 0,
+    "passVotes": 3,
+    "reason": "3:0 majority pass",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/semantic-action-title.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/semantic-action-title.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "3eebb8be-17cc-470c-8d83-8a10d77909ff",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 21991,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "pass",
+      "rationale": "All five entries are complete assertion sentences with clear subject, direction, and implication (capacity leak → reminders reduced misses → recovered appointments fund rollout → readiness conditions → approve rollout), reading as action titles rather than section labels and preserving the outline decision arc. The deterministic '이다' suffix is the expected machine-generated title-lint target, so it does not detract from conclusiveness or introduce unsupported claims.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "All five entries are complete assertion sentences with clear subject, direction, and implication (capacity leak → reminders reduced misses → recovered appointments fund rollout → readiness conditions → approve rollout), reading as action titles rather than section labels and preserving the outline decision arc. The deterministic '이다' suffix is the expected machine-generated title-lint target, so it does not detract from conclusiveness or introduce unsupported claims.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 20847,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "pass",
+      "rationale": "All five titles are assertion-style conclusion sentences (e.g. \"Two reminders reduced missed visits\", \"Approve a controlled network rollout\") rather than topic labels, and they preserve the outline order and decision arc from problem to recommended action. Support is directional and coherent though terse and body evidence is not shown for full verification, so it clears the pass threshold without reaching a flawless 5.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "All five titles are assertion-style conclusion sentences (e.g. \"Two reminders reduced missed visits\", \"Approve a controlled network rollout\") rather than topic labels, and they preserve the outline order and decision arc from problem to recommended action. Support is directional and coherent though terse and body evidence is not shown for full verification, so it clears the pass threshold without reaching a flawless 5.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 4,
+          "honesty": 4
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 4,
+        "honesty": 4
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 24183,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "pass",
+      "rationale": "All five titles are genuine assertion/action statements that state conclusions with clear direction and implication (e.g., \"Two reminders reduced missed visits\", \"Recovered appointments fund rollout\") and they preserve the outline decision arc from problem to \"Approve a controlled network rollout\". They fall short of a perfect 5 because no slide body evidence is provided to verify support and the deterministic \"이다\" suffix leaves them as machine-linted fragments rather than clean complete sentences.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "All five titles are genuine assertion/action statements that state conclusions with clear direction and implication (e.g., \"Two reminders reduced missed visits\", \"Recovered appointments fund rollout\") and they preserve the outline decision arc from problem to \"Approve a controlled network rollout\". They fall short of a perfect 5 because no slide body evidence is provided to verify support and the deterministic \"이다\" suffix leaves them as machine-linted fragments rather than clean complete sentences.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 4,
+          "honesty": 4
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 4,
+        "honesty": 4
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "demo-topic-1",
+    "path": "/home/seunghyeong/deck-factory/incubator/packages/deck-copy/tests/integration/subject-titles.txt"
+  }
+}

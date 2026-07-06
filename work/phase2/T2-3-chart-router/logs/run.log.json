@@ -1,0 +1,11 @@
+{
+  "taskId": "T2-3-chart-router",
+  "attempt": 0,
+  "pid": 23739,
+  "pgid": 23739,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase2/T2-3-chart-router/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase2/T2-3-chart-router/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-03T04:40:01Z"
+}

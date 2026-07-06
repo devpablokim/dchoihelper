@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 15867,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "두 PNG 모두 제목·축라벨·범례·데이터라벨의 한글(분기별 매출과 영업이익률, 채널별 분기 매출, 온라인/오프라인/파트너, 세로 회전된 축 제목 포함)이 두부(□) 없이 선명하게 렌더되어 하드페일 증거가 없다. 축·눈금·색 구분이 명확하고 데이터라벨이 값과 함께 정확히 표기되어 발표 슬라이드에 그대로 삽입 가능한 수준이다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "두 PNG 모두 제목·축라벨·범례·데이터라벨의 한글(분기별 매출과 영업이익률, 채널별 분기 매출, 온라인/오프라인/파트너, 세로 회전된 축 제목 포함)이 두부(□) 없이 선명하게 렌더되어 하드페일 증거가 없다. 축·눈금·색 구분이 명확하고 데이터라벨이 값과 함께 정확히 표기되어 발표 슬라이드에 그대로 삽입 가능한 수준이다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 2
+}

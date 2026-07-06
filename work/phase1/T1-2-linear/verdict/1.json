@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 19386,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "토큰 체계가 near-black 캔버스·4단 surface 래더·단일 라벤더 액센트로 Linear 디자인 시스템을 충실히 재현하며 팔레트·타이포 위계·간격이 일관되게 정의됐고, HTML 타일이 히어로·타입 스케일·팔레트·카드 목업으로 파운데이션 완성도를 시각 증거로 보여준다. 가시적 하드페일 없음이며 contrast pairs와 hairline 기반 깊이 모델까지 원본 시스템다움을 갖췄다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "토큰 체계가 near-black 캔버스·4단 surface 래더·단일 라벤더 액센트로 Linear 디자인 시스템을 충실히 재현하며 팔레트·타이포 위계·간격이 일관되게 정의됐고, HTML 타일이 히어로·타입 스케일·팔레트·카드 목업으로 파운데이션 완성도를 시각 증거로 보여준다. 가시적 하드페일 없음이며 contrast pairs와 hairline 기반 깊이 모델까지 원본 시스템다움을 갖췄다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 1
+}

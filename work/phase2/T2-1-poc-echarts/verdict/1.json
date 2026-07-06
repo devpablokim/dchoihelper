@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 24113,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "두 PNG 모두 한글 텍스트(제목·범례·데이터라벨·축라벨)가 tofu나 글리프 깨짐 없이 선명하게 렌더링되어 폰트 충실도는 하드페일이 없다. 다만 stacked-bar에서 축 제목이 범례와 겹치고 데이터라벨이 막대 경계에서 잘리는(예: '스 매출 11', '내 매출 180억') 가시적 약점이 있어 발표 슬라이드 삽입 전 레이아웃 보정이 필요하다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "두 PNG 모두 한글 텍스트(제목·범례·데이터라벨·축라벨)가 tofu나 글리프 깨짐 없이 선명하게 렌더링되어 폰트 충실도는 하드페일이 없다. 다만 stacked-bar에서 축 제목이 범례와 겹치고 데이터라벨이 막대 경계에서 잘리는(예: '스 매출 11', '내 매출 180억') 가시적 약점이 있어 발표 슬라이드 삽입 전 레이아웃 보정이 필요하다.",
+    "rubricScores": {
+      "completeness": 3,
+      "fidelity": 5,
+      "honesty": 4
+    },
+    "score": 3
+  },
+  "rubricScores": {
+    "completeness": 3,
+    "fidelity": 5,
+    "honesty": 4
+  },
+  "score": 3,
+  "status": "success",
+  "vote": 1
+}

@@ -1,0 +1,11 @@
+{
+  "taskId": "T1-5-closing-special",
+  "attempt": 0,
+  "pid": 24767,
+  "pgid": 24767,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase1/T1-5-closing-special/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase1/T1-5-closing-special/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-03T00:44:36Z"
+}

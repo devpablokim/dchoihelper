@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 29157,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "pass",
+  "rationale": "슬라이드 3의 지난 결함(빈 박스·요소 넘침)이 사라지고 태블릿 목업 안에 콘텐츠와 '91% valid mobile numbers' 텍스트가 정상 배치되어 수리가 확인되며, 세 슬라이드 모두 위계·정렬·여백·가독이 하드페일 없이 유지된다. 슬라이드 3의 태블릿을 가로지르는 장식 곡선이 다소 어색하고 본문 불릿이 단일이라 소프트 약점은 있으나 명백한 파손은 아니다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "슬라이드 3의 지난 결함(빈 박스·요소 넘침)이 사라지고 태블릿 목업 안에 콘텐츠와 '91% valid mobile numbers' 텍스트가 정상 배치되어 수리가 확인되며, 세 슬라이드 모두 위계·정렬·여백·가독이 하드페일 없이 유지된다. 슬라이드 3의 태블릿을 가로지르는 장식 곡선이 다소 어색하고 본문 불릿이 단일이라 소프트 약점은 있으나 명백한 파손은 아니다.",
+    "rubricScores": {
+      "completeness": 4,
+      "fidelity": 4,
+      "honesty": 5
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 4,
+    "fidelity": 4,
+    "honesty": 5
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 3
+}

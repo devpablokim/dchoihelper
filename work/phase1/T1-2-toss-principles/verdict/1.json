@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 19338,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "팔레트·타이포 위계·간격 체계가 토큰 JSON과 HTML에서 일관되게 매핑되어 밝은 화면과 단일 블루 액센트의 토스풍 디자인 시스템다움을 명확히 보여주며 프레젠테이션 파운데이션으로 충분하다. 다만 contrastPairs의 ratio가 모두 4.5로 균일해 실제 계산값이 아닌 AA 하한 플레이스홀더로 보이는 점이 추적할 소프트 약점이다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "팔레트·타이포 위계·간격 체계가 토큰 JSON과 HTML에서 일관되게 매핑되어 밝은 화면과 단일 블루 액센트의 토스풍 디자인 시스템다움을 명확히 보여주며 프레젠테이션 파운데이션으로 충분하다. 다만 contrastPairs의 ratio가 모두 4.5로 균일해 실제 계산값이 아닌 AA 하한 플레이스홀더로 보이는 점이 추적할 소프트 약점이다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 4
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 4
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 1
+}

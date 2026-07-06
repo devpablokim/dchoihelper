@@ -1,0 +1,11 @@
+{
+  "taskId": "T1-1-validators",
+  "attempt": 0,
+  "pid": 8997,
+  "pgid": 8997,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase1/T1-1-validators/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase1/T1-1-validators/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-02T23:19:34Z"
+}

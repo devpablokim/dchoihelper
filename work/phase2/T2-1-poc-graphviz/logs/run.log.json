@@ -1,0 +1,11 @@
+{
+  "taskId": "T2-1-poc-graphviz",
+  "attempt": 1,
+  "pid": 23103,
+  "pgid": 23103,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase2/T2-1-poc-graphviz/out/attempt-1/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase2/T2-1-poc-graphviz/brief.retry-1.md",
+  "schema": null,
+  "startedAt": "2026-07-03T02:32:06Z"
+}

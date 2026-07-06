@@ -1,0 +1,14 @@
+{
+ "linkedAt": "2026-07-03T (precheck 완료 직후)",
+ "judgeQualification": {
+  "accuracy": 0.95,
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "notes": "Judge reached the PLAN.md 5.4 hard-gate threshold.",
+  "status": "qualified",
+  "threshold": 0.9,
+  "verifiedAt": "2026-07-02T22:37:03+00:00"
+ },
+ "precheckResultPath": "incubator/tools/orchestration/calibration/precheck-opus-20260703/precheck-result.json",
+ "judgeCmd": "tools/orchestration/judge-cmds/judge_opus.sh (동일 설정: prompt quality-general, rubric quality-general, model opus)",
+ "note": "승격 판정(final.json)은 자격 기록 전에 실행됐으나 동일 judge 설정이며, 사후 precheck에서 accuracy 0.95로 qualified 확인됨 (5.4 임계 0.9)."
+}

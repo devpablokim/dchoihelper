@@ -1,0 +1,11 @@
+{
+  "taskId": "T2-7-title-linter",
+  "attempt": 0,
+  "pid": 15775,
+  "pgid": 15775,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase2/T2-7-title-linter/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase2/T2-7-title-linter/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-03T04:08:44Z"
+}

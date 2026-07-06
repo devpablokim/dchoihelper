@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 20847,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "All five titles are assertion-style conclusion sentences (e.g. \"Two reminders reduced missed visits\", \"Approve a controlled network rollout\") rather than topic labels, and they preserve the outline order and decision arc from problem to recommended action. Support is directional and coherent though terse and body evidence is not shown for full verification, so it clears the pass threshold without reaching a flawless 5.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "All five titles are assertion-style conclusion sentences (e.g. \"Two reminders reduced missed visits\", \"Approve a controlled network rollout\") rather than topic labels, and they preserve the outline order and decision arc from problem to recommended action. Support is directional and coherent though terse and body evidence is not shown for full verification, so it clears the pass threshold without reaching a flawless 5.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 4,
+      "honesty": 4
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 4,
+    "honesty": 4
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 2
+}

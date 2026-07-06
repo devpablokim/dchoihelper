@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 19364,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 12689,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 16263,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-03T00:08:24+00:00",
+  "gateId": "p1-style-tile",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "pass",
+    "failVotes": 0,
+    "failedVotes": 0,
+    "passVotes": 3,
+    "reason": "3:0 majority pass",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/quality-general.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/quality-general.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "31d6d8fe-39c6-4e8a-ba3e-60865e8f28c9",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 19364,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "pass",
+      "rationale": "토큰 JSON이 역할 팔레트·raw·타이포 스케일(24→80)·간격/반경 체계·contrastPairs·모션까지 완결적으로 정의되고, tile.html이 딥네이비 히어로·퍼플 CTA·파스텔 카드·스와치·타이포 위계로 이를 일관되게 시각화해 Notion다운 디자인 시스템 파운데이션을 명확한 증거로 충족한다. 팔레트 조화와 위계·간격 체계에 하드페일 요소가 보이지 않는다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "토큰 JSON이 역할 팔레트·raw·타이포 스케일(24→80)·간격/반경 체계·contrastPairs·모션까지 완결적으로 정의되고, tile.html이 딥네이비 히어로·퍼플 CTA·파스텔 카드·스와치·타이포 위계로 이를 일관되게 시각화해 Notion다운 디자인 시스템 파운데이션을 명확한 증거로 충족한다. 팔레트 조화와 위계·간격 체계에 하드페일 요소가 보이지 않는다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 12689,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "pass",
+      "rationale": "The 'notion' style tile shows a coherent token system with a harmonious pastel-plus-navy palette, a clear type hierarchy (80/56/32/24) and a consistent spacing/radius scale, all faithfully echoing Notion's editorial design language via the deep navy hero, purple pill CTA, and tinted cards. Palette swatches, typography scale, and button/card components are all rendered with visible evidence and no hard-fail concerns, making it a complete presentation foundation.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "The 'notion' style tile shows a coherent token system with a harmonious pastel-plus-navy palette, a clear type hierarchy (80/56/32/24) and a consistent spacing/radius scale, all faithfully echoing Notion's editorial design language via the deep navy hero, purple pill CTA, and tinted cards. Palette swatches, typography scale, and button/card components are all rendered with visible evidence and no hard-fail concerns, making it a complete presentation foundation.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 16263,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "pass",
+      "rationale": "토큰 체계가 role/raw 이중 구조로 일관되고 팔레트·타이포 스케일(24→80)·간격(4~120)·radius 위계가 체계적이며, 딥네이비 히어로+퍼플 CTA+파스텔 틴트가 Notion 디자인다움을 시각 증거로 충족한다. contrastPairs가 4.5 기준으로 선언되고 하드페일 요소가 없어 파운데이션으로서 완성도가 높으나, tile.html 내 하드코딩 HEX가 토큰 참조와 병존하는 소소한 약점이 있어 만점은 아니다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "토큰 체계가 role/raw 이중 구조로 일관되고 팔레트·타이포 스케일(24→80)·간격(4~120)·radius 위계가 체계적이며, 딥네이비 히어로+퍼플 CTA+파스텔 틴트가 Notion 디자인다움을 시각 증거로 충족한다. contrastPairs가 4.5 기준으로 선언되고 하드페일 요소가 없어 파운데이션으로서 완성도가 높으나, tile.html 내 하드코딩 HEX가 토큰 참조와 병존하는 소소한 약점이 있어 만점은 아니다.",
+        "rubricScores": {
+          "completeness": 4,
+          "fidelity": 4,
+          "honesty": 5
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 4,
+        "fidelity": 4,
+        "honesty": 5
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "notion",
+    "path": "/tmp/claude-1000/-home-seunghyeong/c7d6b2fc-8fb7-45b8-884f-c0c72e1ce39c/scratchpad/tilejudge/subject-notion.txt"
+  }
+}

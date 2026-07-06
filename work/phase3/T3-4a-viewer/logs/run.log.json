@@ -1,0 +1,11 @@
+{
+  "taskId": "T3-4a-viewer",
+  "attempt": 1,
+  "pid": 12127,
+  "pgid": 12127,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase3/T3-4a-viewer/out/attempt-1/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase3/T3-4a-viewer/brief.retry-1.md",
+  "schema": null,
+  "startedAt": "2026-07-03T08:17:25Z"
+}

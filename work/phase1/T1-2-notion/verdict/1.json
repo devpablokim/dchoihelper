@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 19364,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "토큰 JSON이 역할 팔레트·raw·타이포 스케일(24→80)·간격/반경 체계·contrastPairs·모션까지 완결적으로 정의되고, tile.html이 딥네이비 히어로·퍼플 CTA·파스텔 카드·스와치·타이포 위계로 이를 일관되게 시각화해 Notion다운 디자인 시스템 파운데이션을 명확한 증거로 충족한다. 팔레트 조화와 위계·간격 체계에 하드페일 요소가 보이지 않는다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "토큰 JSON이 역할 팔레트·raw·타이포 스케일(24→80)·간격/반경 체계·contrastPairs·모션까지 완결적으로 정의되고, tile.html이 딥네이비 히어로·퍼플 CTA·파스텔 카드·스와치·타이포 위계로 이를 일관되게 시각화해 Notion다운 디자인 시스템 파운데이션을 명확한 증거로 충족한다. 팔레트 조화와 위계·간격 체계에 하드페일 요소가 보이지 않는다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 1
+}

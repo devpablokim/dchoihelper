@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 25446,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "pass",
+  "rationale": "네 템플릿 모두 96px 좌측 여백과 토큰 기반 타이포로 제목>본문>출처의 시각 위계가 일관되게 서 있고, bbox 좌표(960 기준)와 HTML 픽셀(1280 기준)이 1.333 배율로 정확히 대응해 그리드 정렬·슬롯 구성에 하드페일 증거가 없다. stat-value 블록 폭과 일부 수직 여백이 다소 넉넉해 소프트 피드백 여지는 있으나 발표용 레이아웃으로서 실용성은 명확히 충족한다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "네 템플릿 모두 96px 좌측 여백과 토큰 기반 타이포로 제목>본문>출처의 시각 위계가 일관되게 서 있고, bbox 좌표(960 기준)와 HTML 픽셀(1280 기준)이 1.333 배율로 정확히 대응해 그리드 정렬·슬롯 구성에 하드페일 증거가 없다. stat-value 블록 폭과 일부 수직 여백이 다소 넉넉해 소프트 피드백 여지는 있으나 발표용 레이아웃으로서 실용성은 명확히 충족한다.",
+    "rubricScores": {
+      "completeness": 4,
+      "fidelity": 4,
+      "honesty": 5
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 4,
+    "fidelity": 4,
+    "honesty": 5
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 3
+}

@@ -1,0 +1,11 @@
+{
+  "taskId": "T1-5-image-visual",
+  "attempt": 2,
+  "pid": 29999,
+  "pgid": 29999,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase1/T1-5-image-visual/out/attempt-2/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase1/T1-5-image-visual/brief.retry-2.md",
+  "schema": null,
+  "startedAt": "2026-07-03T01:14:55Z"
+}

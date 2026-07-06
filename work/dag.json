@@ -1,0 +1,653 @@
+{
+ "version": "0.3.2-phase1-wave3b",
+ "note": "Phase 0 서브셋. dag.schema.json과 러너 강제는 T0-10 산출물이 담당하며, 그 전까지 fable이 이 파일을 수동 정본으로 사용한다. Phase 1 이후 태스크는 T0-10 integrated 후 WORKERS.md 5절 분배표에서 확장한다.",
+ "tasks": [
+  {
+   "id": "T0-1-contracts-v1",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [],
+   "produces": [
+    "incubator/contracts/*.schema.json",
+    "incubator/contracts/deck-constants.json",
+    "incubator/contracts/verdict.schema.json.placeholder",
+    "incubator/packages/deck-contracts/scripts/validate.mjs",
+    "incubator/packages/deck-contracts/tests/"
+   ],
+   "consumes": [
+    "PLAN.md#2.3"
+   ],
+   "sharedFiles": [
+    "incubator/package.json"
+   ],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T0-2-scaffold",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T0-1-contracts-v1"
+   ],
+   "produces": [
+    "incubator/packages/*/package.json",
+    "incubator/tools/orchestration/README.md"
+   ],
+   "consumes": [
+    "incubator/contracts/"
+   ],
+   "sharedFiles": [
+    "incubator/package.json"
+   ],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T0-3-vendored-sync",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T0-1-contracts-v1",
+    "T0-2-scaffold"
+   ],
+   "produces": [
+    "incubator/tools/sync-contracts.mjs",
+    "incubator/.github/workflows/contracts-diff.yml"
+   ],
+   "consumes": [
+    "incubator/contracts/"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T0-4-grader-skeleton",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T0-1-contracts-v1",
+    "T0-2-scaffold"
+   ],
+   "produces": [
+    "incubator/packages/deck-grader/"
+   ],
+   "consumes": [
+    "incubator/contracts/slide-html.contract.md",
+    "incubator/contracts/deck-constants.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T0-5-goldenset-freeze",
+   "taskType": "judgment",
+   "worker": "opus",
+   "needs": [],
+   "produces": [
+    "incubator/docs/goldenset-freeze.md"
+   ],
+   "consumes": [
+    "research/consulting-quality.md",
+    "research/deck-frameworks.md"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "nondeterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T0-6-license-evidence",
+   "taskType": "research",
+   "worker": "claude",
+   "needs": [],
+   "produces": [
+    "incubator/docs/license-table.json",
+    "incubator/docs/license-evidence/"
+   ],
+   "consumes": [
+    "research/toss-design.md",
+    "research/korean-design-systems.md",
+    "research/chart-libs.md",
+    "research/astryx.md"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "nondeterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T0-7-vendor-pin",
+   "taskType": "research",
+   "worker": "bash",
+   "needs": [],
+   "produces": [
+    "vendor/slides-grab/",
+    "vendor/hyperframes/",
+    "vendor/PINS.json"
+   ],
+   "consumes": [],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "nondeterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T0-8-judgment-infra",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T0-5-goldenset-freeze"
+   ],
+   "produces": [
+    "incubator/tools/orchestration/judge_harness.py",
+    "incubator/contracts/verdict.schema.json",
+    "incubator/scripts/prompts/",
+    "incubator/docs/rubrics/"
+   ],
+   "consumes": [
+    "PLAN.md#5.3",
+    "PLAN.md#5.4",
+    "incubator/docs/goldenset-freeze.md"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "canonicalized",
+   "mode": "attended"
+  },
+  {
+   "id": "T0-9-spawn-wrapper",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T0-2-scaffold"
+   ],
+   "produces": [
+    "incubator/tools/orchestration/spawn_wrapper.py",
+    "incubator/tools/orchestration/VENDORED.json"
+   ],
+   "consumes": [
+    "incubator/tools/orchestration/"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T0-10-dag-runner",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T0-2-scaffold",
+    "T0-9-spawn-wrapper"
+   ],
+   "produces": [
+    "incubator/tools/orchestration/dag_runner.py",
+    "incubator/tools/orchestration/dag.schema.json"
+   ],
+   "consumes": [
+    "work/dag.json",
+    "incubator/tools/orchestration/spawn_wrapper.py"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-1-validators",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T0-1-contracts-v1",
+    "T0-2-scaffold",
+    "T0-3-vendored-sync",
+    "T0-4-grader-skeleton",
+    "T0-5-goldenset-freeze",
+    "T0-6-license-evidence",
+    "T0-7-vendor-pin",
+    "T0-8-judgment-infra",
+    "T0-9-spawn-wrapper",
+    "T0-10-dag-runner"
+   ],
+   "produces": [
+    "incubator/packages/deck-tokens/scripts/"
+   ],
+   "consumes": [
+    "incubator/contracts/tokens.schema.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-4-capacity",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T0-1-contracts-v1",
+    "T0-2-scaffold",
+    "T0-3-vendored-sync",
+    "T0-4-grader-skeleton",
+    "T0-5-goldenset-freeze",
+    "T0-6-license-evidence",
+    "T0-7-vendor-pin",
+    "T0-8-judgment-infra",
+    "T0-9-spawn-wrapper",
+    "T0-10-dag-runner"
+   ],
+   "produces": [
+    "incubator/packages/deck-layouts/scripts/capacity.mjs"
+   ],
+   "consumes": [
+    "incubator/contracts/deck-constants.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-7-render-queue",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T0-9-spawn-wrapper"
+   ],
+   "produces": [
+    "incubator/tools/orchestration/render_queue.py"
+   ],
+   "consumes": [
+    "incubator/tools/orchestration/spawn_wrapper.py"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-8-budget-watch",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T0-9-spawn-wrapper",
+    "T0-10-dag-runner"
+   ],
+   "produces": [
+    "incubator/tools/orchestration/budget_watch.py"
+   ],
+   "consumes": [
+    "incubator/tools/orchestration/spawn_wrapper.py"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-9-typo",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T0-1-contracts-v1",
+    "T0-2-scaffold",
+    "T0-3-vendored-sync",
+    "T0-4-grader-skeleton",
+    "T0-5-goldenset-freeze",
+    "T0-6-license-evidence",
+    "T0-7-vendor-pin",
+    "T0-8-judgment-infra",
+    "T0-9-spawn-wrapper",
+    "T0-10-dag-runner"
+   ],
+   "produces": [
+    "incubator/packages/deck-grader/src/rules/typo.mjs"
+   ],
+   "consumes": [
+    "incubator/packages/deck-grader/src/"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-9-color",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T0-1-contracts-v1",
+    "T0-2-scaffold",
+    "T0-3-vendored-sync",
+    "T0-4-grader-skeleton",
+    "T0-5-goldenset-freeze",
+    "T0-6-license-evidence",
+    "T0-7-vendor-pin",
+    "T0-8-judgment-infra",
+    "T0-9-spawn-wrapper",
+    "T0-10-dag-runner"
+   ],
+   "produces": [
+    "incubator/packages/deck-grader/src/rules/color.mjs"
+   ],
+   "consumes": [
+    "incubator/packages/deck-grader/src/"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-9-align",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T0-1-contracts-v1",
+    "T0-2-scaffold",
+    "T0-3-vendored-sync",
+    "T0-4-grader-skeleton",
+    "T0-5-goldenset-freeze",
+    "T0-6-license-evidence",
+    "T0-7-vendor-pin",
+    "T0-8-judgment-infra",
+    "T0-9-spawn-wrapper",
+    "T0-10-dag-runner"
+   ],
+   "produces": [
+    "incubator/packages/deck-grader/src/rules/align.mjs"
+   ],
+   "consumes": [
+    "incubator/packages/deck-grader/src/"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-2-apple",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T1-1-validators",
+    "T0-8-judgment-infra"
+   ],
+   "produces": [
+    "incubator/packages/deck-tokens/presets/apple/"
+   ],
+   "consumes": [
+    "incubator/contracts/tokens.schema.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-2-linear",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T1-1-validators",
+    "T0-8-judgment-infra"
+   ],
+   "produces": [
+    "incubator/packages/deck-tokens/presets/linear/"
+   ],
+   "consumes": [
+    "incubator/contracts/tokens.schema.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-2-notion",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T1-1-validators",
+    "T0-8-judgment-infra"
+   ],
+   "produces": [
+    "incubator/packages/deck-tokens/presets/notion/"
+   ],
+   "consumes": [
+    "incubator/contracts/tokens.schema.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-2-stripe",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T1-1-validators",
+    "T0-8-judgment-infra"
+   ],
+   "produces": [
+    "incubator/packages/deck-tokens/presets/stripe/"
+   ],
+   "consumes": [
+    "incubator/contracts/tokens.schema.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-2-vercel",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T1-1-validators",
+    "T0-8-judgment-infra"
+   ],
+   "produces": [
+    "incubator/packages/deck-tokens/presets/vercel/"
+   ],
+   "consumes": [
+    "incubator/contracts/tokens.schema.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-2-toss-principles",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T1-1-validators",
+    "T0-8-judgment-infra"
+   ],
+   "produces": [
+    "incubator/packages/deck-tokens/presets/toss-principles/"
+   ],
+   "consumes": [
+    "incubator/contracts/tokens.schema.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-2-krds",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T1-1-validators",
+    "T0-8-judgment-infra"
+   ],
+   "produces": [
+    "incubator/packages/deck-tokens/presets/krds/"
+   ],
+   "consumes": [
+    "incubator/contracts/tokens.schema.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-2-kr-pick",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T1-1-validators",
+    "T0-8-judgment-infra"
+   ],
+   "produces": [
+    "incubator/packages/deck-tokens/presets/kr-pick/"
+   ],
+   "consumes": [
+    "incubator/contracts/tokens.schema.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-6-overflow-checker",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T1-4-capacity",
+    "T1-7-render-queue"
+   ],
+   "produces": [
+    "incubator/packages/deck-layouts/scripts/overflow-check.mjs"
+   ],
+   "consumes": [
+    "incubator/contracts/deck-constants.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-5-cover-section",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T1-4-capacity",
+    "T1-6-overflow-checker",
+    "T1-2-vercel",
+    "T0-8-judgment-infra"
+   ],
+   "produces": [
+    "incubator/packages/deck-layouts/templates/cover-section/"
+   ],
+   "consumes": [
+    "incubator/contracts/layout-manifest.schema.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-5-text-content",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T1-4-capacity",
+    "T1-6-overflow-checker",
+    "T1-2-vercel",
+    "T0-8-judgment-infra"
+   ],
+   "produces": [
+    "incubator/packages/deck-layouts/templates/text-content/"
+   ],
+   "consumes": [
+    "incubator/contracts/layout-manifest.schema.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-5-data-chart",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T1-4-capacity",
+    "T1-6-overflow-checker",
+    "T1-2-vercel",
+    "T0-8-judgment-infra"
+   ],
+   "produces": [
+    "incubator/packages/deck-layouts/templates/data-chart/"
+   ],
+   "consumes": [
+    "incubator/contracts/layout-manifest.schema.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-5-image-visual",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T1-4-capacity",
+    "T1-6-overflow-checker",
+    "T1-2-vercel",
+    "T0-8-judgment-infra"
+   ],
+   "produces": [
+    "incubator/packages/deck-layouts/templates/image-visual/"
+   ],
+   "consumes": [
+    "incubator/contracts/layout-manifest.schema.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  },
+  {
+   "id": "T1-5-closing-special",
+   "taskType": "code",
+   "worker": "codex",
+   "needs": [
+    "T1-4-capacity",
+    "T1-6-overflow-checker",
+    "T1-2-vercel",
+    "T0-8-judgment-infra"
+   ],
+   "produces": [
+    "incubator/packages/deck-layouts/templates/closing-special/"
+   ],
+   "consumes": [
+    "incubator/contracts/layout-manifest.schema.json"
+   ],
+   "sharedFiles": [],
+   "dynamicChildren": null,
+   "determinismClass": "deterministic",
+   "mode": "attended"
+  }
+ ]
+}

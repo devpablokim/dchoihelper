@@ -1,0 +1,1 @@
+{"gate":"node tests/run.mjs = PASS 60 contract cases (fable 직접 재실행)","schemas":19,"opusSoft":"T0-8 후 hard 재판정 예정","note":"verdict.schema.json은 T0-1이 선작성 — T0-8 산출이 정본으로 덮어쓸 수 있음(diff 리뷰 예정)","mode":"attended"}

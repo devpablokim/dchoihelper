@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 17571,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "팔레트·타이포 위계·간격·radius가 tokens.json과 tile.html에서 일관되게 연결되고 대비쌍이 명시돼 있어 애플 디자인 시스템다움과 파운데이션 완성도가 시각적 증거로 뒷받침된다. 하드페일 근거가 없고 나브·히어로·팔레트·타입스케일·컴포넌트가 모두 렌더되어 프레젠테이션 기반으로 충분하다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "팔레트·타이포 위계·간격·radius가 tokens.json과 tile.html에서 일관되게 연결되고 대비쌍이 명시돼 있어 애플 디자인 시스템다움과 파운데이션 완성도가 시각적 증거로 뒷받침된다. 하드페일 근거가 없고 나브·히어로·팔레트·타입스케일·컴포넌트가 모두 렌더되어 프레젠테이션 기반으로 충분하다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 1
+}

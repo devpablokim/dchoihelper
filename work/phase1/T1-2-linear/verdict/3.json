@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 17715,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "pass",
+  "rationale": "토큰 체계가 근흑 캔버스+4단 surface 래더+단일 라벤더 액센트+hairline 보더로 일관되며, 타이포 위계·간격·radius 스케일과 contrast 페어까지 명시돼 원본 Linear 디자인 시스템다움과 파운데이션 완성도가 뚜렷하다. 다만 subhead·body·bodyLg·cardTitle이 모두 24px로 수렴하고 타일 내 스케일 샘플(32/28px)이 토큰 값과 어긋나는 약한 위계 흠이 soft 피드백으로 남아 5점은 아니다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "토큰 체계가 근흑 캔버스+4단 surface 래더+단일 라벤더 액센트+hairline 보더로 일관되며, 타이포 위계·간격·radius 스케일과 contrast 페어까지 명시돼 원본 Linear 디자인 시스템다움과 파운데이션 완성도가 뚜렷하다. 다만 subhead·body·bodyLg·cardTitle이 모두 24px로 수렴하고 타일 내 스케일 샘플(32/28px)이 토큰 값과 어긋나는 약한 위계 흠이 soft 피드백으로 남아 5점은 아니다.",
+    "rubricScores": {
+      "completeness": 4,
+      "fidelity": 4,
+      "honesty": 4
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 4,
+    "fidelity": 4,
+    "honesty": 4
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 3
+}

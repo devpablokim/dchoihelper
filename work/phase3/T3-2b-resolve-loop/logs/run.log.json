@@ -1,0 +1,11 @@
+{
+  "taskId": "T3-2b-resolve-loop",
+  "attempt": 0,
+  "pid": 748,
+  "pgid": 748,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase3/T3-2b-resolve-loop/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase3/T3-2b-resolve-loop/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-03T07:20:37Z"
+}

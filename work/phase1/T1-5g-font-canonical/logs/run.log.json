@@ -1,0 +1,11 @@
+{
+  "taskId": "T1-5g-font-canonical",
+  "attempt": 0,
+  "pid": 8697,
+  "pgid": 8697,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase1/T1-5g-font-canonical/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase1/T1-5g-font-canonical/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-03T01:40:46Z"
+}

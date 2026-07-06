@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 24183,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "pass",
+  "rationale": "All five titles are genuine assertion/action statements that state conclusions with clear direction and implication (e.g., \"Two reminders reduced missed visits\", \"Recovered appointments fund rollout\") and they preserve the outline decision arc from problem to \"Approve a controlled network rollout\". They fall short of a perfect 5 because no slide body evidence is provided to verify support and the deterministic \"이다\" suffix leaves them as machine-linted fragments rather than clean complete sentences.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "All five titles are genuine assertion/action statements that state conclusions with clear direction and implication (e.g., \"Two reminders reduced missed visits\", \"Recovered appointments fund rollout\") and they preserve the outline decision arc from problem to \"Approve a controlled network rollout\". They fall short of a perfect 5 because no slide body evidence is provided to verify support and the deterministic \"이다\" suffix leaves them as machine-linted fragments rather than clean complete sentences.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 4,
+      "honesty": 4
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 4,
+    "honesty": 4
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 3
+}

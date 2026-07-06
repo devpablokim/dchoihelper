@@ -1,0 +1,11 @@
+{
+  "taskId": "T2-12-trust",
+  "attempt": 0,
+  "pid": 5602,
+  "pgid": 5602,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase2/T2-12-trust/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase2/T2-12-trust/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-03T04:19:55Z"
+}

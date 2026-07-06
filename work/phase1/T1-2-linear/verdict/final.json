@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 19386,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 12251,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 17715,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-03T00:07:35+00:00",
+  "gateId": "p1-style-tile",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "pass",
+    "failVotes": 0,
+    "failedVotes": 0,
+    "passVotes": 3,
+    "reason": "3:0 majority pass",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/quality-general.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/quality-general.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "ed2d263a-557f-4f70-afd6-f79c07909611",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 19386,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "pass",
+      "rationale": "토큰 체계가 near-black 캔버스·4단 surface 래더·단일 라벤더 액센트로 Linear 디자인 시스템을 충실히 재현하며 팔레트·타이포 위계·간격이 일관되게 정의됐고, HTML 타일이 히어로·타입 스케일·팔레트·카드 목업으로 파운데이션 완성도를 시각 증거로 보여준다. 가시적 하드페일 없음이며 contrast pairs와 hairline 기반 깊이 모델까지 원본 시스템다움을 갖췄다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "토큰 체계가 near-black 캔버스·4단 surface 래더·단일 라벤더 액센트로 Linear 디자인 시스템을 충실히 재현하며 팔레트·타이포 위계·간격이 일관되게 정의됐고, HTML 타일이 히어로·타입 스케일·팔레트·카드 목업으로 파운데이션 완성도를 시각 증거로 보여준다. 가시적 하드페일 없음이며 contrast pairs와 hairline 기반 깊이 모델까지 원본 시스템다움을 갖췄다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 12251,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "pass",
+      "rationale": "The tokens form a coherent Linear system — near-black canvas with a disciplined 4-step surface ladder, a single scarce lavender-blue accent, hairline-border depth (shadowOpacity 0), and consistent spacing/radius/type scales that the tile HTML applies faithfully across hero, type scale, palette, and product-card samples. No visible hard-fail: layout is clean, accent is used sparingly, and the artifact reads as an authentic, presentation-ready design foundation.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "The tokens form a coherent Linear system — near-black canvas with a disciplined 4-step surface ladder, a single scarce lavender-blue accent, hairline-border depth (shadowOpacity 0), and consistent spacing/radius/type scales that the tile HTML applies faithfully across hero, type scale, palette, and product-card samples. No visible hard-fail: layout is clean, accent is used sparingly, and the artifact reads as an authentic, presentation-ready design foundation.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 17715,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "pass",
+      "rationale": "토큰 체계가 근흑 캔버스+4단 surface 래더+단일 라벤더 액센트+hairline 보더로 일관되며, 타이포 위계·간격·radius 스케일과 contrast 페어까지 명시돼 원본 Linear 디자인 시스템다움과 파운데이션 완성도가 뚜렷하다. 다만 subhead·body·bodyLg·cardTitle이 모두 24px로 수렴하고 타일 내 스케일 샘플(32/28px)이 토큰 값과 어긋나는 약한 위계 흠이 soft 피드백으로 남아 5점은 아니다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "토큰 체계가 근흑 캔버스+4단 surface 래더+단일 라벤더 액센트+hairline 보더로 일관되며, 타이포 위계·간격·radius 스케일과 contrast 페어까지 명시돼 원본 Linear 디자인 시스템다움과 파운데이션 완성도가 뚜렷하다. 다만 subhead·body·bodyLg·cardTitle이 모두 24px로 수렴하고 타일 내 스케일 샘플(32/28px)이 토큰 값과 어긋나는 약한 위계 흠이 soft 피드백으로 남아 5점은 아니다.",
+        "rubricScores": {
+          "completeness": 4,
+          "fidelity": 4,
+          "honesty": 4
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 4,
+        "fidelity": 4,
+        "honesty": 4
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "linear",
+    "path": "/tmp/claude-1000/-home-seunghyeong/c7d6b2fc-8fb7-45b8-884f-c0c72e1ce39c/scratchpad/tilejudge/subject-linear.txt"
+  }
+}

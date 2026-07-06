@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 32563,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "팔레트(정부블루+블루틴트), 타이포 4단계, 8배수 간격 체계가 일관되고 KRDS 출처·KOGL 라이선스까지 명시해 원본 디자인 시스템다움과 파운데이션 완성도가 명확히 드러난다. 다만 content 그리드 트랙 합(448+352+384)에 열간격 64px를 더하면 가용폭 1184px를 64px 초과해 최우측 Components 열이 overflow:hidden으로 잘릴 소지가 있어 소프트 결함으로 감점한다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "팔레트(정부블루+블루틴트), 타이포 4단계, 8배수 간격 체계가 일관되고 KRDS 출처·KOGL 라이선스까지 명시해 원본 디자인 시스템다움과 파운데이션 완성도가 명확히 드러난다. 다만 content 그리드 트랙 합(448+352+384)에 열간격 64px를 더하면 가용폭 1184px를 64px 초과해 최우측 Components 열이 overflow:hidden으로 잘릴 소지가 있어 소프트 결함으로 감점한다.",
+    "rubricScores": {
+      "completeness": 4,
+      "fidelity": 5,
+      "honesty": 4
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 4,
+    "fidelity": 5,
+    "honesty": 4
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 2
+}

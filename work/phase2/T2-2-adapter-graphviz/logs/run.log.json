@@ -1,0 +1,11 @@
+{
+  "taskId": "T2-2-adapter-graphviz",
+  "attempt": 1,
+  "pid": 9569,
+  "pgid": 9569,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase2/T2-2-adapter-graphviz/out/attempt-1/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase2/T2-2-adapter-graphviz/brief.retry-1.md",
+  "schema": null,
+  "startedAt": "2026-07-03T04:07:18Z"
+}

@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 12251,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "The tokens form a coherent Linear system — near-black canvas with a disciplined 4-step surface ladder, a single scarce lavender-blue accent, hairline-border depth (shadowOpacity 0), and consistent spacing/radius/type scales that the tile HTML applies faithfully across hero, type scale, palette, and product-card samples. No visible hard-fail: layout is clean, accent is used sparingly, and the artifact reads as an authentic, presentation-ready design foundation.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "The tokens form a coherent Linear system — near-black canvas with a disciplined 4-step surface ladder, a single scarce lavender-blue accent, hairline-border depth (shadowOpacity 0), and consistent spacing/radius/type scales that the tile HTML applies faithfully across hero, type scale, palette, and product-card samples. No visible hard-fail: layout is clean, accent is used sparingly, and the artifact reads as an authentic, presentation-ready design foundation.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 2
+}

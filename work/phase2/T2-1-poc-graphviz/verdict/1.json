@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 14098,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "세 PNG 모두 제목·노드라벨·축라벨·범례·연결선 라벨의 한글이 두부(□)나 깨짐 없이 선명하게 렌더되었고, 색상·정렬·간격이 발표 슬라이드에 바로 넣을 수 있는 수준이다. 가시적 하드페일 증거가 없으며 루브릭 5점 앵커(명확한 게이트 충족·중대 결함 없음)를 충족한다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "세 PNG 모두 제목·노드라벨·축라벨·범례·연결선 라벨의 한글이 두부(□)나 깨짐 없이 선명하게 렌더되었고, 색상·정렬·간격이 발표 슬라이드에 바로 넣을 수 있는 수준이다. 가시적 하드페일 증거가 없으며 루브릭 5점 앵커(명확한 게이트 충족·중대 결함 없음)를 충족한다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 1
+}

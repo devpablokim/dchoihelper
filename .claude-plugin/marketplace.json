@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "deck-factory",
+  "description": "Presentation-grade dark-editorial HTML deck design — as a Claude Code skill.",
+  "owner": {
+    "name": "kimsh-1",
+    "email": "seunghyeong41@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "deck-factory",
+      "description": "Turn one line of intent into a presentation-grade, dark-editorial HTML deck. Ships the full design system (no_box, giant stats, 4-corner chrome, single accent, CJK-safe) that Claude follows to hand-build slides and render them with real Chromium.",
+      "author": { "name": "kimsh-1" },
+      "category": "design",
+      "keywords": ["presentation", "slides", "deck", "design-system", "html", "pdf", "editorial"],
+      "source": "./",
+      "homepage": "https://github.com/kimsh-1/deck-factory"
+    }
+  ]
+}

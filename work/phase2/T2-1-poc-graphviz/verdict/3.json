@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 13193,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 3
+  },
+  "decision": "pass",
+  "rationale": "세 PNG 모두 제목·노드·축라벨·범례·데이터라벨의 한글 텍스트가 두부(□) 없이 선명하게 렌더되며 잘림이나 겹침 없이 발표 슬라이드에 넣을 수 있는 수준이다. 조직도·상태도·폴백 세 케이스 모두 색상·화살표·범례가 일관되게 구성되어 하드페일 근거가 보이지 않는다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "세 PNG 모두 제목·노드·축라벨·범례·데이터라벨의 한글 텍스트가 두부(□) 없이 선명하게 렌더되며 잘림이나 겹침 없이 발표 슬라이드에 넣을 수 있는 수준이다. 조직도·상태도·폴백 세 케이스 모두 색상·화살표·범례가 일관되게 구성되어 하드페일 근거가 보이지 않는다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 3
+}

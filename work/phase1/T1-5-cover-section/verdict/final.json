@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 22105,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 21724,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 18210,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-03T01:57:26+00:00",
+  "gateId": "p2-layout-visual",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "pass",
+    "failVotes": 0,
+    "failedVotes": 0,
+    "passVotes": 3,
+    "reason": "3:0 majority pass",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/quality-general.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/quality-general.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "9904e0f5-75a3-4146-8e2f-6996b21d6bc0",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 22105,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "pass",
+      "rationale": "네 템플릿 모두 폰트 토큰(display>body>caption)과 컬러 토큰(ink/body/mute)으로 제목>부제>본문 시각 위계가 명확하고, 좌측 정렬 여백·bbox가 매니페스트와 0.75 스케일로 일관되며 슬롯별 capacity 예산·aspectSafe가 실용적이다. overflow:hidden 클리핑과 accent bar·leading-zero 카운터 등 구성이 발표용으로 완결되어 있고 가시적 하드페일 근거가 없다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "네 템플릿 모두 폰트 토큰(display>body>caption)과 컬러 토큰(ink/body/mute)으로 제목>부제>본문 시각 위계가 명확하고, 좌측 정렬 여백·bbox가 매니페스트와 0.75 스케일로 일관되며 슬롯별 capacity 예산·aspectSafe가 실용적이다. overflow:hidden 클리핑과 accent bar·leading-zero 카운터 등 구성이 발표용으로 완결되어 있고 가시적 하드페일 근거가 없다.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 5,
+          "honesty": 5
+        },
+        "score": 5
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 5,
+        "honesty": 5
+      },
+      "score": 5,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 21724,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "pass",
+      "rationale": "네 템플릿 모두 절대좌표 슬롯과 bbox가 명시돼 제목>부제>본문의 시각 위계가 폰트 크기·색·굵기 토큰으로 뚜렷이 구현됐고, 여백(96~160px)과 rule 장식·그리드 정렬이 균형 잡혀 발표용 레이아웃으로 실용적이다. 매니페스트(960 기준)와 HTML(1280 기준) 좌표가 1.333 배율로 일관되며 overflow 차단·capacityFloors까지 갖춰 하드게이트 통과에 충분하되, 슬롯당 단일 데모 콘텐츠만 있어 다양한 길이 대응 근거는 소프트 피드백으로 남는다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "네 템플릿 모두 절대좌표 슬롯과 bbox가 명시돼 제목>부제>본문의 시각 위계가 폰트 크기·색·굵기 토큰으로 뚜렷이 구현됐고, 여백(96~160px)과 rule 장식·그리드 정렬이 균형 잡혀 발표용 레이아웃으로 실용적이다. 매니페스트(960 기준)와 HTML(1280 기준) 좌표가 1.333 배율로 일관되며 overflow 차단·capacityFloors까지 갖춰 하드게이트 통과에 충분하되, 슬롯당 단일 데모 콘텐츠만 있어 다양한 길이 대응 근거는 소프트 피드백으로 남는다.",
+        "rubricScores": {
+          "completeness": 4,
+          "fidelity": 4,
+          "honesty": 5
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 4,
+        "fidelity": 4,
+        "honesty": 5
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 18210,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "pass",
+      "rationale": "네 템플릿 모두 제목>부제>본문의 시각 위계가 폰트 크기·색(ink/body/mute)·mono 캡션으로 명확히 구분되고, 일관된 좌측 여백과 절대 좌표 그리드로 정렬·여백 균형이 실용적이다. 매니페스트 bbox와 실제 CSS 좌표가 미세하게 어긋나는 소프트 약점이 있으나 하드페일 근거는 없어 게이트 통과 기준을 충족한다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "네 템플릿 모두 제목>부제>본문의 시각 위계가 폰트 크기·색(ink/body/mute)·mono 캡션으로 명확히 구분되고, 일관된 좌측 여백과 절대 좌표 그리드로 정렬·여백 균형이 실용적이다. 매니페스트 bbox와 실제 CSS 좌표가 미세하게 어긋나는 소프트 약점이 있으나 하드페일 근거는 없어 게이트 통과 기준을 충족한다.",
+        "rubricScores": {
+          "completeness": 4,
+          "fidelity": 4,
+          "honesty": 5
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 4,
+        "fidelity": 4,
+        "honesty": 5
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "cover-section",
+    "path": "/tmp/claude-1000/-home-seunghyeong/c7d6b2fc-8fb7-45b8-884f-c0c72e1ce39c/scratchpad/layoutjudge/subject-cover-section.txt"
+  }
+}

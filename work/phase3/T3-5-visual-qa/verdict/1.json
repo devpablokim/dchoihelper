@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 17209,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "fail",
+  "rationale": "Slide 3 has a visible hard-fail: a placeholder empty mint box, a blue bar and a duplicated black 'Contact audit' pill that collide and bleed off the left slide edge, violating margin, alignment, and completion criteria. Slides 1 and 2 are clean, but a single deterministic hard-fail on slide 3 fails the gate.",
+  "raw": {
+    "decision": "fail",
+    "rationale": "Slide 3 has a visible hard-fail: a placeholder empty mint box, a blue bar and a duplicated black 'Contact audit' pill that collide and bleed off the left slide edge, violating margin, alignment, and completion criteria. Slides 1 and 2 are clean, but a single deterministic hard-fail on slide 3 fails the gate.",
+    "rubricScores": {
+      "completeness": 1,
+      "fidelity": 2,
+      "honesty": 3
+    },
+    "score": 1
+  },
+  "rubricScores": {
+    "completeness": 1,
+    "fidelity": 2,
+    "honesty": 3
+  },
+  "score": 1,
+  "status": "success",
+  "vote": 1
+}

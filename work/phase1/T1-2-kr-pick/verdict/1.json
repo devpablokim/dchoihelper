@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 14706,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 1
+  },
+  "decision": "pass",
+  "rationale": "토큰 JSON과 HTML이 역할 기반 팔레트·6단 타입스케일·6단 간격 체계로 일관되게 매핑되어 있고, 캐럿 오렌지 주색에 녹색·파랑 보조색을 조화롭게 묶어 원본 디자인 시스템다운 프레젠테이션 파운데이션을 이룬다. 위계·대비·완성도 모두 하드페일 없이 게이트를 넘기나, 타입스케일 데모의 실제 렌더 크기가 라벨값과 다르게 축소 표기된 점은 소프트 약점으로 남는다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "토큰 JSON과 HTML이 역할 기반 팔레트·6단 타입스케일·6단 간격 체계로 일관되게 매핑되어 있고, 캐럿 오렌지 주색에 녹색·파랑 보조색을 조화롭게 묶어 원본 디자인 시스템다운 프레젠테이션 파운데이션을 이룬다. 위계·대비·완성도 모두 하드페일 없이 게이트를 넘기나, 타입스케일 데모의 실제 렌더 크기가 라벨값과 다르게 축소 표기된 점은 소프트 약점으로 남는다.",
+    "rubricScores": {
+      "completeness": 4,
+      "fidelity": 4,
+      "honesty": 4
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 4,
+    "fidelity": 4,
+    "honesty": 4
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 1
+}

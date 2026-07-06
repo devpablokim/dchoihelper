@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 8614,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "The T0-1 schemas faithfully transcribe PLAN.md 2.3: deck-plan enforces the contentRef pattern, transform-only-for-image bindings, rejectCount cap of 2, and releaseBlocked marker; copy-reject caps attempt at 2 with the required fields; chart-manifest makes sourceRef a claims/source-pack reference and marks sourceLabel readOnly; deck-manifest requires the three release-status fields with the export enum. All 21 named contract files exist and the four core schemas match the canonical prose. No hard-fail contradiction with the source is visible in the supplied evidence.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "The T0-1 schemas faithfully transcribe PLAN.md 2.3: deck-plan enforces the contentRef pattern, transform-only-for-image bindings, rejectCount cap of 2, and releaseBlocked marker; copy-reject caps attempt at 2 with the required fields; chart-manifest makes sourceRef a claims/source-pack reference and marks sourceLabel readOnly; deck-manifest requires the three release-status fields with the export enum. All 21 named contract files exist and the four core schemas match the canonical prose. No hard-fail contradiction with the source is visible in the supplied evidence.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 2
+}

@@ -1,0 +1,11 @@
+{
+  "taskId": "T3-2a-binding-capacity",
+  "attempt": 0,
+  "pid": 17844,
+  "pgid": 17844,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase3/T3-2a-binding-capacity/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase3/T3-2a-binding-capacity/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-03T07:07:39Z"
+}

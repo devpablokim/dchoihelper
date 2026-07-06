@@ -1,0 +1,11 @@
+{
+  "taskId": "T3-1-slides-grab-port",
+  "attempt": 0,
+  "pid": 8564,
+  "pgid": 8564,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase3/T3-1-slides-grab-port/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase3/T3-1-slides-grab-port/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-03T06:57:03Z"
+}

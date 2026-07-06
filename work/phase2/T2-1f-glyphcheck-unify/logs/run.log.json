@@ -1,0 +1,11 @@
+{
+  "taskId": "T2-1f-glyphcheck-unify",
+  "attempt": 1,
+  "pid": 26754,
+  "pgid": 26754,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase2/T2-1f-glyphcheck-unify/out/attempt-1/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase2/T2-1f-glyphcheck-unify/brief.retry-1.md",
+  "schema": null,
+  "startedAt": "2026-07-03T03:14:15Z"
+}

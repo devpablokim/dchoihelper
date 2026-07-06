@@ -1,0 +1,151 @@
+{
+  "calibrationSetId": "synthetic-arbiter-precheck-v1",
+  "costLog": {
+    "calls": [
+      {
+        "currency": "USD",
+        "durationMs": 23289,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      {
+        "currency": "USD",
+        "durationMs": 25095,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      {
+        "currency": "USD",
+        "durationMs": 25446,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      }
+    ],
+    "currency": "USD",
+    "estimatedCostUsd": 0.0
+  },
+  "createdAt": "2026-07-03T02:01:24+00:00",
+  "gateId": "p2-layout-visual",
+  "judgeQualification": {
+    "accuracy": null,
+    "calibrationSetId": "synthetic-arbiter-precheck-v1",
+    "notes": "No precheck result was supplied for this invocation.",
+    "status": "unverified",
+    "threshold": 0.9,
+    "verifiedAt": null
+  },
+  "majority": {
+    "decision": "pass",
+    "failVotes": 0,
+    "failedVotes": 0,
+    "passVotes": 3,
+    "reason": "3:0 majority pass",
+    "requiredVotes": 2,
+    "status": "decided",
+    "totalVotes": 3
+  },
+  "mode": "attended",
+  "promptPath": "/home/seunghyeong/deck-factory/incubator/scripts/prompts/quality-general.md",
+  "promptVersion": "prompt-v1",
+  "rubricPath": "/home/seunghyeong/deck-factory/incubator/docs/rubrics/quality-general.md",
+  "rubricVersion": "rubric-v1",
+  "runId": "925a858f-1d15-49b6-be79-98d8c8e20a90",
+  "schemaVersion": "verdict.v1",
+  "scores": [
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 23289,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 1
+      },
+      "decision": "pass",
+      "rationale": "All four closing-special templates present a clear visual hierarchy (display-weight title/stat > strong body > muted source/caption), consistent 96px safe-zone margins, and non-overlapping slot geometry that scales coherently from the 960-space manifest to the 1280×720 HTML. Slot composition is practical for real closing content with sane capacity floors; only minor soft weaknesses (sparse CTA slot, thin accent rules) keep it from a perfect score.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "All four closing-special templates present a clear visual hierarchy (display-weight title/stat > strong body > muted source/caption), consistent 96px safe-zone margins, and non-overlapping slot geometry that scales coherently from the 960-space manifest to the 1280×720 HTML. Slot composition is practical for real closing content with sane capacity floors; only minor soft weaknesses (sparse CTA slot, thin accent rules) keep it from a perfect score.",
+        "rubricScores": {
+          "completeness": 5,
+          "fidelity": 4,
+          "honesty": 4
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 5,
+        "fidelity": 4,
+        "honesty": 4
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 1
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 25095,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 2
+      },
+      "decision": "pass",
+      "rationale": "네 템플릿 모두 display/body/caption·mono 토큰으로 제목>본문>출처의 시각 위계가 명확하고, 96px 좌여백·중앙정렬·액센트 룰로 그리드 정렬과 여백 균형이 일관되며 매니페스트 bbox(960공간)와 HTML(1280공간)이 1.333 배율로 정합해 하드페일 근거가 보이지 않는다. big-stat의 statValue 슬롯이 실제 내용 대비 과대하고 summary-cta의 2단 폭 배분이 다소 우측 편중이라는 소프트 약점이 있으나 게이트 통과에는 지장이 없다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "네 템플릿 모두 display/body/caption·mono 토큰으로 제목>본문>출처의 시각 위계가 명확하고, 96px 좌여백·중앙정렬·액센트 룰로 그리드 정렬과 여백 균형이 일관되며 매니페스트 bbox(960공간)와 HTML(1280공간)이 1.333 배율로 정합해 하드페일 근거가 보이지 않는다. big-stat의 statValue 슬롯이 실제 내용 대비 과대하고 summary-cta의 2단 폭 배분이 다소 우측 편중이라는 소프트 약점이 있으나 게이트 통과에는 지장이 없다.",
+        "rubricScores": {
+          "completeness": 4,
+          "fidelity": 4,
+          "honesty": 5
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 4,
+        "fidelity": 4,
+        "honesty": 5
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 2
+    },
+    {
+      "costLog": {
+        "currency": "USD",
+        "durationMs": 25446,
+        "estimatedCostUsd": 0.0,
+        "status": "success",
+        "vote": 3
+      },
+      "decision": "pass",
+      "rationale": "네 템플릿 모두 96px 좌측 여백과 토큰 기반 타이포로 제목>본문>출처의 시각 위계가 일관되게 서 있고, bbox 좌표(960 기준)와 HTML 픽셀(1280 기준)이 1.333 배율로 정확히 대응해 그리드 정렬·슬롯 구성에 하드페일 증거가 없다. stat-value 블록 폭과 일부 수직 여백이 다소 넉넉해 소프트 피드백 여지는 있으나 발표용 레이아웃으로서 실용성은 명확히 충족한다.",
+      "raw": {
+        "decision": "pass",
+        "rationale": "네 템플릿 모두 96px 좌측 여백과 토큰 기반 타이포로 제목>본문>출처의 시각 위계가 일관되게 서 있고, bbox 좌표(960 기준)와 HTML 픽셀(1280 기준)이 1.333 배율로 정확히 대응해 그리드 정렬·슬롯 구성에 하드페일 증거가 없다. stat-value 블록 폭과 일부 수직 여백이 다소 넉넉해 소프트 피드백 여지는 있으나 발표용 레이아웃으로서 실용성은 명확히 충족한다.",
+        "rubricScores": {
+          "completeness": 4,
+          "fidelity": 4,
+          "honesty": 5
+        },
+        "score": 4
+      },
+      "rubricScores": {
+        "completeness": 4,
+        "fidelity": 4,
+        "honesty": 5
+      },
+      "score": 4,
+      "status": "success",
+      "vote": 3
+    }
+  ],
+  "softHard": "hard",
+  "subject": {
+    "id": "closing-special",
+    "path": "/tmp/claude-1000/-home-seunghyeong/c7d6b2fc-8fb7-45b8-884f-c0c72e1ce39c/scratchpad/layoutjudge/subject-closing-special.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 19546,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "팔레트(ink·canvas 래더·link/violet/cyan/pink 액센트)·타이포 위계(display→body→mono)·간격/라운드/섀도 토큰이 일관되게 정의되어 Vercel 디자인 시스템다움을 명확한 시각 증거로 보여준다. 히어로 메시 그라데이션, 단일 흑색 CTA pill, Geist/Geist Mono 라벨, 3겹 스택 섀도가 원본 시스템 규칙과 정합하며 하드페일 근거가 보이지 않는다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "팔레트(ink·canvas 래더·link/violet/cyan/pink 액센트)·타이포 위계(display→body→mono)·간격/라운드/섀도 토큰이 일관되게 정의되어 Vercel 디자인 시스템다움을 명확한 시각 증거로 보여준다. 히어로 메시 그라데이션, 단일 흑색 CTA pill, Geist/Geist Mono 라벨, 3겹 스택 섀도가 원본 시스템 규칙과 정합하며 하드페일 근거가 보이지 않는다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 5,
+      "honesty": 5
+    },
+    "score": 5
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 5,
+    "honesty": 5
+  },
+  "score": 5,
+  "status": "success",
+  "vote": 2
+}

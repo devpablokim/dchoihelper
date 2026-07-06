@@ -1,0 +1,29 @@
+{
+  "costLog": {
+    "currency": "USD",
+    "durationMs": 25466,
+    "estimatedCostUsd": 0.0,
+    "status": "success",
+    "vote": 2
+  },
+  "decision": "pass",
+  "rationale": "17개 자산 각각에 라이선스·조건·evidencePath·sourceUrl·retrievedAt·verdict가 붙어 판정 근거가 증거로 뒷받침되며, corazzon 계열은 명시 라이선스 부재를 근거로 unverified/defer 처리하고 확인 전 사용 금지를 명확히 해 정직성이 높다. adopt-with-conditions 7건도 조건이 조항 단위로 구체적이고 부분확인·경계 항목을 별도 절로 투명하게 분리했으나, 일부 출처 귀속(예: Astryx를 Meta MIT로 표기)이 다소 이례적이라 소프트 피드백 여지가 있어 만점은 아니다.",
+  "raw": {
+    "decision": "pass",
+    "rationale": "17개 자산 각각에 라이선스·조건·evidencePath·sourceUrl·retrievedAt·verdict가 붙어 판정 근거가 증거로 뒷받침되며, corazzon 계열은 명시 라이선스 부재를 근거로 unverified/defer 처리하고 확인 전 사용 금지를 명확히 해 정직성이 높다. adopt-with-conditions 7건도 조건이 조항 단위로 구체적이고 부분확인·경계 항목을 별도 절로 투명하게 분리했으나, 일부 출처 귀속(예: Astryx를 Meta MIT로 표기)이 다소 이례적이라 소프트 피드백 여지가 있어 만점은 아니다.",
+    "rubricScores": {
+      "completeness": 5,
+      "fidelity": 4,
+      "honesty": 5
+    },
+    "score": 4
+  },
+  "rubricScores": {
+    "completeness": 5,
+    "fidelity": 4,
+    "honesty": 5
+  },
+  "score": 4,
+  "status": "success",
+  "vote": 2
+}

@@ -1,0 +1,11 @@
+{
+  "taskId": "T1-5-data-chart",
+  "attempt": 2,
+  "pid": 29998,
+  "pgid": 29998,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase1/T1-5-data-chart/out/attempt-2/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase1/T1-5-data-chart/brief.retry-2.md",
+  "schema": null,
+  "startedAt": "2026-07-03T01:14:55Z"
+}

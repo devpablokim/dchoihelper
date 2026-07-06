@@ -1,0 +1,11 @@
+{
+  "taskId": "T1-4-capacity",
+  "attempt": 0,
+  "pid": 8998,
+  "pgid": 8998,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase1/T1-4-capacity/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase1/T1-4-capacity/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-02T23:19:34Z"
+}

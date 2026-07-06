@@ -1,0 +1,11 @@
+{
+  "taskId": "T2-6-overlay-post",
+  "attempt": 0,
+  "pid": 23742,
+  "pgid": 23742,
+  "cwd": "/home/seunghyeong/deck-factory",
+  "out": "/home/seunghyeong/deck-factory/work/phase2/T2-6-overlay-post/out/attempt-0/result.md",
+  "brief": "/home/seunghyeong/deck-factory/work/phase2/T2-6-overlay-post/brief.md",
+  "schema": null,
+  "startedAt": "2026-07-03T04:40:01Z"
+}
